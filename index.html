@@ -1,0 +1,208 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <script src="jquery-3.3.1.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+
+    </head>
+
+    <body>
+        <!-- Add your site or application content here -->
+        <p id = "title">PayLineSimulation</p>
+        <div>
+            <div id="configPanel" style="border:1px solid #515151;">
+                <div id="selectEB" style="border:1px solid #515151;">
+                    <div>
+                        <label id = subjectListText>关卡列表 </label>
+                        <select id = "subjectList" onchange="InitColor()" >
+                        </select>
+                    </div>
+                    <label id = "selectBackgroundText">上传背景图</label>
+                    <label id="selectBackground" style="border:1px solid #515151;" >
+                        <div>
+                            <input type="file" id="background" name="files[]" style = "OVERFLOW: auto" height="30px" accept="image/*" >
+                        </div>
+                    </label>
+                </div>
+                <div id="numberOfLinesEB" style="border:1px solid #515151;">
+                    <label id = previewNumOfLinesText>同时展现线数 </label>
+                    <form id = "numberOfLines">
+                        <input type="radio" name="numberOfLines" value="all" checked>All Lines
+                        <br>
+                        <input type="radio" name="numberOfLines" value="1">1 Line
+                        <input type="radio" name="numberOfLines" value="2">2 Lines
+                        <br>
+                        <input type="radio" name="numberOfLines" value="5">5 Line
+                        <input type="radio" name="numberOfLines" value="10">10 Lines
+                    </form>
+                </div>
+
+                <div id="orderOfPreviewEB" style="border:1px solid #515151;">
+                    <label id = orderOfPreviewText>展现顺序 </label>
+                    <form id = "orderOfPreview">
+                        <input type="radio" name="orderOfPreview" value="successively" checked>依次
+                        <br>
+                        <input type="radio" name="orderOfPreview" value="random" >乱序随机
+                    </form>
+                    <button id = "nextButton" style="font-size: 20px">next</button>
+                </div>
+                <div id="setColorEB" style="border:1px solid #515151;">
+                    <label id = "colorText1">1</label>
+                    <input type="color" id="color1"  value="#515151" >
+                    <label id = "colorText2">2</label>
+                    <input type="color" id="color2"  value="#515151" >
+                    <label id = "colorText3">3</label>
+                    <input type="color" id="color3"  value="#515151" >
+                    <label id = "colorText4">4</label>
+                    <input type="color" id="color4"  value="#515151" >
+                    <label id = "colorText5">5</label>
+                    <input type="color" id="color5"  value="#515151" >
+                    <label id = "colorText6">6</label>
+                    <input type="color" id="color6"  value="#515151" >
+                    <label id = "colorText7">7</label>
+                    <input type="color" id="color7"  value="#515151" >
+                    <label id = "colorText8">8</label>
+                    <input type="color" id="color8"  value="#515151" >
+                    <label id = "colorText9">9</label>
+                    <input type="color" id="color9"  value="#515151" >
+                    <label id = "colorText10">10</label>
+                    <input type="color" id="color10"  value="#515151" >
+                    <label id = "colorText11">11</label>
+                    <input type="color" id="color11"  value="#515151" >
+                    <label id = "colorText12">12</label>
+                    <input type="color" id="color12"  value="#515151" >
+                    <label id = "colorText13">13</label>
+                    <input type="color" id="color13"  value="#515151" >
+                    <label id = "colorText14">14</label>
+                    <input type="color" id="color14"  value="#515151" >
+                    <label id = "colorText15">15</label>
+                    <input type="color" id="color15"  value="#515151" >
+                    <label id = "colorText16">16</label>
+                    <input type="color" id="color16"  value="#515151" >
+                    <label id = "colorText17">17</label>
+                    <input type="color" id="color17"  value="#515151" >
+                    <label id = "colorText18">18</label>
+                    <input type="color" id="color18"  value="#515151" >
+                    <label id = "colorText19">19</label>
+                    <input type="color" id="color19"  value="#515151" >
+                    <label id = "colorText20">20</label>
+                    <input type="color" id="color20"  value="#515151" >
+                    <label id = "colorText21">21</label>
+                    <input type="color" id="color21"  value="#515151" >
+                    <label id = "colorText22">22</label>
+                    <input type="color" id="color22"  value="#515151" >
+                    <label id = "colorText23">23</label>
+                    <input type="color" id="color23"  value="#515151" >
+                    <label id = "colorText24">24</label>
+                    <input type="color" id="color24"  value="#515151" >
+                    <label id = "colorText25">25</label>
+                    <input type="color" id="color25"  value="#515151" >
+                    <label id = "colorText26">26</label>
+                    <input type="color" id="color26"  value="#515151" >
+                    <label id = "colorText27">27</label>
+                    <input type="color" id="color27"  value="#515151" >
+                    <label id = "colorText28">28</label>
+                    <input type="color" id="color28"  value="#515151" >
+                    <label id = "colorText29">29</label>
+                    <input type="color" id="color29"  value="#515151" >
+                    <label id = "colorText30">30</label>
+                    <input type="color" id="color30"  value="#515151" >
+                    <label id = "colorText31">31</label>
+                    <input type="color" id="color31"  value="#515151" >
+                    <label id = "colorText32">32</label>
+                    <input type="color" id="color32"  value="#515151" >
+                    <label id = "colorText33">33</label>
+                    <input type="color" id="color33"  value="#515151" >
+                    <label id = "colorText34">34</label>
+                    <input type="color" id="color34"  value="#515151" >
+                    <label id = "colorText35">35</label>
+                    <input type="color" id="color35"  value="#515151" >
+                    <label id = "colorText36">36</label>
+                    <input type="color" id="color36"  value="#515151" >
+                    <label id = "colorText37">37</label>
+                    <input type="color" id="color37"  value="#515151" >
+                    <label id = "colorText38">38</label>
+                    <input type="color" id="color38"  value="#515151" >
+                    <label id = "colorText39">39</label>
+                    <input type="color" id="color39"  value="#515151" >
+                    <label id = "colorText40">40</label>
+                    <input type="color" id="color40"  value="#515151" >
+                    <label id = "colorText41">41</label>
+                    <input type="color" id="color41"  value="#515151" >
+                    <label id = "colorText42">42</label>
+                    <input type="color" id="color42"  value="#515151" >
+                    <label id = "colorText43">43</label>
+                    <input type="color" id="color43"  value="#515151" >
+                    <label id = "colorText44">44</label>
+                    <input type="color" id="color44"  value="#515151" >
+                    <label id = "colorText45">45</label>
+                    <input type="color" id="color45"  value="#515151" >
+                    <label id = "colorText46">46</label>
+                    <input type="color" id="color46"  value="#515151" >
+                    <label id = "colorText47">47</label>
+                    <input type="color" id="color47"  value="#515151" >
+                    <label id = "colorText48">48</label>
+                    <input type="color" id="color48"  value="#515151" >
+                    <label id = "colorText49">49</label>
+                    <input type="color" id="color49"  value="#515151" >
+                    <label id = "colorText50">50</label>
+                    <input type="color" id="color50"  value="#515151" >
+                    <label id = "colorText51">51</label>
+                    <input type="color" id="color51"  value="#515151" >
+                    <label id = "colorText52">52</label>
+                    <input type="color" id="color52"  value="#515151" >
+                    <label id = "colorText53">53</label>
+                    <input type="color" id="color53"  value="#515151" >
+                    <label id = "colorText54">54</label>
+                    <input type="color" id="color54"  value="#515151" >
+                    <label id = "colorText55">55</label>
+                    <input type="color" id="color55"  value="#515151" >
+                    <label id = "colorText56">56</label>
+                    <input type="color" id="color56"  value="#515151" >
+                    <label id = "colorText57">57</label>
+                    <input type="color" id="color57"  value="#515151" >
+                    <label id = "colorText58">58</label>
+                    <input type="color" id="color58"  value="#515151" >
+                    <label id = "colorText59">59</label>
+                    <input type="color" id="color59"  value="#515151" >
+                    <label id = "colorText60">60</label>
+                    <input type="color" id="color60"  value="#515151" >
+                    <button id = "refreshButton" style="font-size: 20px">更新</button>
+                    <button id = "outButton" style="font-size: 20px">输出</button>
+                </div>
+
+            </div>
+
+            <div id="payTablePanel"style="border:1px solid #515151;">
+
+                <div>
+                    <label id = "displayInterfaceLabel1"   style="border:1px solid #515151;  OVERFLOW: auto">
+
+                        <canvas id = "displayInterface" style="width:1136px;height:768px;"></canvas>
+
+                    </label>
+                    <label id = "displayInterfaceLabel2"   style="border:1px solid #515151;  OVERFLOW: auto">
+                        <img src="base.png" id="imgInput" >
+                    </label>
+
+                </div>
+            </div>
+
+        </div>
+        <script src="js/simulation_main.js"></script>
+    </body>
+</html>
