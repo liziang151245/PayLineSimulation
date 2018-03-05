@@ -33,26 +33,31 @@ var PIXEL_RATIO = (function () {
 $.getJSON( preUrlName + "id_list.json",function (data) {
     subjectTempIdList = data;
     initSujectList();
-    beginSerial = 0;
-    endSerial = GetChangeNum(9);
+    $.getJSON( preUrlName + "id_list.json",function (data) {
+        InitSerial();
+
+    });
 
 });
 
 
+
+
 // 初始化关卡列表
 function initSujectList() {
-
+    var i = 0;
     var length = subjectTempIdList.subjectTmplIdList.length;
     var subjectTempId ;
 
-    for(var i=0;i<length;i++) {
+    for( i=0;i<length;i++) {
 
         subjectTempId=subjectTempIdList.subjectTmplIdList[i];
         addSubjectList(subjectTempId);
 
     }
-}
 
+
+}
 
 //根据当前关卡数生成关卡列表和名字
 function addSubjectList(subjectTempId) {
@@ -75,6 +80,7 @@ function addSubjectList(subjectTempId) {
 
     canvas.width = winWidth * PIXEL_RATIO;
     canvas.height = winHeight * PIXEL_RATIO;
+
 }
 
 
@@ -326,6 +332,8 @@ function InitColor() {
             document.getElementById("color" + (j+1).toString()).value =hex ;
             colorArray[j] = hex;
         }
+        beginSerial = 0;
+        endSerial = GetChangeNum(count);
 
     });
     isNextUp =false;
