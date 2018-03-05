@@ -187,6 +187,7 @@ function DrawPayLines(data) {
         lineBeginY = rotaryTableY;
         DrawPayLine(data,lineBeginX,lineBeginY,j,countArray);
     }
+
 }
 //画一条payLine
 function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
@@ -205,6 +206,7 @@ function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
     var serialX = ceilBeginX - (countArray[data.lines[0][serial].rows[0]] * 22) - 10;
     countArray[data.lines[0][serial].rows[0]] +=1;
     var serialY = ceilBeginY;
+
     DrawSerial(serial + 1 , serialX , 768-serialY , lineColor);
     DrawPayLinesCeil(ceilBeginX,768-ceilBeginY,ceilEndX,768-ceilEndY,lineColor);
     for(var i = 0;i<numOfCol-1;i++){
@@ -219,6 +221,7 @@ function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
     ceilBeginY = ceilEndY;
     ceilEndX = ceilBeginX + ceilDisplacementX;
     DrawPayLinesCeil(ceilBeginX,768-ceilBeginY,ceilEndX,768-ceilEndY,lineColor);
+
 
 }
 function DrawSerial(serial,serialX,serialY,serialColor) {
@@ -240,8 +243,10 @@ function DrawPayLinesCeil(ceilBeginX,ceilBeginY,ceilEndX,ceilEndY,lineColor) {
 }
 //初始化每条赢钱线的颜色
 function InitColor() {
+
     for(var i = 0;i<60;i++) {
         colorArray[i] = undefined;
+        document.getElementById("color" + (i+1).toString()).disabled=false;
     }
 
     var selectNum = document.getElementById("subjectList").value; //当前关卡数
@@ -254,10 +259,17 @@ function InitColor() {
             colorArray[count] = data.lines[0][count].color;
             count++;
         }
-
+        if(0 == colorArray[0][3]){
+            window.alert("当前关卡赢钱线程序配置不显示")
+        }
         for(var x = 0; x<60;x++) {
 
-            document.getElementById("color" + (x+1).toString()).value ="#515151" ;
+            document.getElementById("color" + (x+1).toString()).value ="#000000" ;
+            document.getElementById("color" + (x+1).toString()).style.border = "1px solid #00FF25"
+        }
+        for(var i = count;i<60;i++){
+            document.getElementById("color" + (i+1).toString()).disabled="disabled";
+            document.getElementById("color" + (i+1).toString()).style.border ="1px solid #FF0018";
         }
 
         for(var j = 0;j<count;j++) {
@@ -272,6 +284,7 @@ function InitColor() {
 
     });
     isNextUp =false;
+
 }
 
 
