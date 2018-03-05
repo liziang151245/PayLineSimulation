@@ -137,7 +137,7 @@ nextButton.onclick = function () {
             numOfLines++;
         }
 
-        beginSerial = beginSerial + GetChangeNum(numOfLines);
+        beginSerial = endSerial;
         endSerial = beginSerial + GetChangeNum(numOfLines);
         if (endSerial > numOfLines) {
             endSerial = numOfLines;
@@ -211,15 +211,15 @@ function Download(content, filename) {
 function DrawPayLines(data) {
 
 
-    var rotaryTableX = data.panels[0].spinRegion[0]+ (1136-960)/2;//轮盘坐标x
-    var rotaryTableY = data.panels[0].spinRegion[1] + (768-640)/2;//轮盘坐标y
+    var rotaryTableX = data.panels[0].spinRegion[0]+ (winWidth-960)/2;//轮盘坐标x
+    var rotaryTableY = data.panels[0].spinRegion[1] + (winHeight-640)/2;//轮盘坐标y
     var lineBeginX = rotaryTableX;//线开始位置x
     var lineBeginY = rotaryTableY;//线开始位置y；
     var countArray = new Array(data.reelRow);
     for(var i = 0;i<data.reelRow;i++){
         countArray[i] = 0;
     }
-    context.clearRect(0,0,1136,768);
+    context.clearRect(0,0,winWidth,winHeight);
     for(var j =beginSerial;j<endSerial ;j++) {
         lineBeginX = rotaryTableX;
         lineBeginY = rotaryTableY;
@@ -230,7 +230,7 @@ function DrawPayLines(data) {
 
 //画一条payLine
 function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
-
+    var blank = 20;//序号间距
     var numOfCol = data.reelCol;//列
     var numOfRow = data.reelRow;//行
     var rotaryTableWidth = data.panels[0].spinRegion[2];//轮盘宽度
@@ -242,24 +242,24 @@ function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
     var ceilEndX = ceilBeginX + ceilDisplacementX;
     var ceilEndY = lineBeginY + (data.lines[0][serial].rows[0])*ceilDisplacementY+ceilDisplacementY/2;
     var lineColor = document.getElementById("color" + (serial+1).toString()).value ;
-    var serialX = ceilBeginX - (countArray[data.lines[0][serial].rows[0]] * 22) - 10;
+    var serialX = ceilBeginX - (countArray[data.lines[0][serial].rows[0]] * blank) - 10;//整体基于起始x向右偏移10像素点
     countArray[data.lines[0][serial].rows[0]] +=1;
     var serialY = ceilBeginY;
 
-    DrawSerial(serial + 1 , serialX , 768-serialY , lineColor);
-    DrawPayLinesCeil(ceilBeginX,768-ceilBeginY,ceilEndX,768-ceilEndY,lineColor);
+    DrawSerial(serial + 1 , serialX , winHeight-serialY , lineColor);
+    DrawPayLinesCeil(ceilBeginX,winHeight-ceilBeginY,ceilEndX,winHeight-ceilEndY,lineColor);
     for(var i = 0;i<numOfCol-1;i++){
         ceilBeginX = ceilEndX;
         ceilBeginY = ceilEndY;
         ceilEndX = ceilBeginX + ceilDisplacementX*2;
         ceilEndY = lineBeginY + (data.lines[0][serial].rows[i+1])*ceilDisplacementY+ceilDisplacementY/2;
         lineColor = document.getElementById("color" + (serial+1).toString()).value;
-        DrawPayLinesCeil(ceilBeginX,768-ceilBeginY,ceilEndX,768-ceilEndY,lineColor);
+        DrawPayLinesCeil(ceilBeginX,winHeight-ceilBeginY,ceilEndX,winHeight-ceilEndY,lineColor);
     }
     ceilBeginX = ceilEndX;
     ceilBeginY = ceilEndY;
     ceilEndX = ceilBeginX + ceilDisplacementX;
-    DrawPayLinesCeil(ceilBeginX,768-ceilBeginY,ceilEndX,768-ceilEndY,lineColor);
+    DrawPayLinesCeil(ceilBeginX,winHeight-ceilBeginY,ceilEndX,winHeight-ceilEndY,lineColor);
 
 
 }
@@ -286,6 +286,7 @@ function DrawPayLinesCeil(ceilBeginX,ceilBeginY,ceilEndX,ceilEndY,lineColor) {
 //初始化每条赢钱线的颜色
 function InitColor() {
 
+    $("#numberOfLines")[0][0].checked = true;
     for(var i = 0;i<60;i++) {
         colorArray[i] = undefined;
         document.getElementById("color" + (i+1).toString()).disabled=false;
@@ -305,12 +306,14 @@ function InitColor() {
             window.alert("当前关卡赢钱线程序配置不显示");
         }
         for(var x = 0; x<60;x++) {
-
+            document.getElementById("color" + (x+1).toString()).style.display ="";
+            document.getElementById("colorText" + (x+1).toString()).style.display ="";
             document.getElementById("color" + (x+1).toString()).value ="#000000" ;
             document.getElementById("color" + (x+1).toString()).style.border = "1px solid #00FF25"
         }
         for(var i = count;i<60;i++){
-            document.getElementById("color" + (i+1).toString()).disabled="disabled";
+            document.getElementById("color" + (i+1).toString()).style.display ="none";
+            document.getElementById("colorText" + (i+1).toString()).style.display ="none";
             document.getElementById("color" + (i+1).toString()).style.border ="1px solid #FF0018";
         }
 
