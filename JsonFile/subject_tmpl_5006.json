@@ -1,0 +1,689 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          255,
+          102,
+          51,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          102,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          102,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          153,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          102,
+          153,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          153,
+          0,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          153,
+          51,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          153,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          102,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          153,
+          204,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          51,
+          204,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          102,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          0,
+          2,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 3,
+      "slotsWidth": 181,
+      "spinRegionPolicy": 2,
+      "spinRegionIpad": [
+        55,
+        115,
+        914,
+        509,
+        1,
+        1
+      ],
+      "spinRegionIphone4": [
+        79,
+        115,
+        804,
+        447,
+        0.88,
+        0.88
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 5006
+    }
+  ],
+  "reelCol": 5,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 5006,
+  "symbolOpType": 1,
+  "symbols": {
+    "1": {
+      "animEffect": 0,
+      "animName": "hercules/reels/symbol/hercules_hercules.ccbi",
+      "bgName": "",
+      "imgName": "hercules_heracles.png",
+      "name": "Hercules",
+      "payTables": {
+        "2": 10,
+        "3": 200,
+        "4": 2000,
+        "5": 9000
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "2": {
+      "animEffect": 0,
+      "animName": "hercules/reels/symbol/hercules_phoebe.ccbi",
+      "bgName": "",
+      "imgName": "hercules_phoebe.png",
+      "name": "Phoebe",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 2,
+      "symbolValue": 2,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1000": {
+      "animEffect": 0,
+      "animName": "hercules/reels/symbol/hercules_lion.ccbi",
+      "bgName": "",
+      "imgName": "hercules_lion.png",
+      "name": "Lion",
+      "payTables": {
+        "2": 2,
+        "3": 25,
+        "4": 100,
+        "5": 750
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1001": {
+      "animEffect": 0,
+      "animName": "hercules/reels/symbol/hercules_pegasus.ccbi",
+      "bgName": "",
+      "imgName": "hercules_pegasus.png",
+      "name": "Pegasus",
+      "payTables": {
+        "2": 2,
+        "3": 25,
+        "4": 100,
+        "5": 750
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1002": {
+      "animEffect": 0,
+      "animName": "hercules/reels/symbol/hercules_cow.ccbi",
+      "bgName": "",
+      "imgName": "hercules_cow.png",
+      "name": "Cow",
+      "payTables": {
+        "3": 15,
+        "4": 100,
+        "5": 400
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002
+    },
+    "1003": {
+      "animEffect": 0,
+      "animName": "hercules/reels/symbol/hercules_snake.ccbi",
+      "bgName": "",
+      "imgName": "hercules_snake.png",
+      "name": "Amphisbaena",
+      "payTables": {
+        "3": 10,
+        "4": 75,
+        "5": 250
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "hercules_eagle.png",
+      "name": "Strange Bird",
+      "payTables": {
+        "3": 10,
+        "4": 50,
+        "5": 250
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "hercules_golden_apples.png",
+      "name": "Golden Apple",
+      "payTables": {
+        "3": 10,
+        "4": 50,
+        "5": 125
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "hercules_spear.png",
+      "name": "Spear",
+      "payTables": {
+        "3": 5,
+        "4": 50,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1006,
+      "symbolValue": 1006,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1007": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "hercules_antlers.png",
+      "name": "Golden Antlers",
+      "payTables": {
+        "3": 5,
+        "4": 25,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1007,
+      "symbolValue": 1007,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1008": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "hercules_shield.png",
+      "name": "The Shield",
+      "payTables": {
+        "3": 5,
+        "4": 25,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1008,
+      "symbolValue": 1008,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1009": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "hercules_coin.png",
+      "name": "Coin",
+      "payTables": {
+        "3": 5,
+        "4": 25,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1009,
+      "symbolValue": 1009,
+      "symbolW": 1
+    },
+    "1010": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "hercules_belt.png",
+      "name": "Golden belt",
+      "payTables": {
+        "2": 2,
+        "3": 5,
+        "4": 25,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1010,
+      "symbolValue": 1010,
+      "symbolW": 1,
+      "symbolH": 1
+    }
+  },
+  "client": {
+    "symbolMoveMode": 0,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "hercules_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "hercules_paytable2.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "hercules_paytable3.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "hercules_paytable4.png",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "hercules/reels/bg/hercules_background.jpg",
+    "reelName": "hercules/reels/bg/hercules_wheel.png",
+    "slotSceneType": 5006,
+    "displayName": "Hercules",
+    "freeSpinBgMusic": "",
+    "name": "Hercules",
+    "resRootDir": "hercules",
+    "spinBgMusic": "hercules/audio_mp3/spin-bg",
+    "symbolBatchName": "hercules/reels/symbol/hercules_symbol_batch.png",
+    "symbolBatchPlistPath": "hercules/reels/symbol/hercules_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/casino_ui_title_video",
+    "spinUiBottomName": "slot/slot_spin_ui_video1024",
+    "spinUiBottomNameIphone": "slot/slot_spin_ui_video1136",
+    "winEffectMap": {
+      "1": {
+        "effectName": "hercules/audio_mp3/small-win",
+        "effectDuration": 3.5
+      },
+      "2": {
+        "effectName": "hercules/audio_mp3//mid-win",
+        "effectDuration": 6
+      },
+      "3": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 20
+      }
+    },
+    "prizePoolType": 1,
+    "functionType": 1,
+    "isVideo": true
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 407,
+      "scatter": {
+        "symbolIds": [2],
+        "freeSpins" : {
+          "2": 5,
+          "3": 10,
+          "4": 20,
+          "5": 50
+        },
+        "pays": {
+          "2": 2,
+          "3": 5,
+          "4": 20,
+          "5": 400
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,680 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          255,
+          102,
+          51,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          102,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          102,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          153,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          102,
+          153,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          153,
+          0,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          153,
+          51,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          153,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          102,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          153,
+          204,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          51,
+          204,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          102,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          0,
+          2,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 3,
+      "slotsWidth": 177,
+      "spinRegionPolicy": 2,
+      "spinRegionIpad": [
+        60,
+        116,
+        903,
+        508,
+        1,
+        1
+      ],
+      "spinRegionIphone4": [
+        57,
+        92,
+        840,
+        457,
+        0.93,
+        0.90
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 5003
+    }
+  ],
+  "reelCol": 5,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 5003,
+  "symbolOpType": 1,
+  "symbols": {
+    "1": {
+      "animEffect": 0,
+      "animName": "waters_of_atlantis/reels/symbol/waters_of_atlantis_siren.ccbi",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_siren.png",
+      "name": "Sterope",
+      "payTables": {
+        "2": 10,
+        "3": 200,
+        "4": 2000,
+        "5": 9000
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "2": {
+      "animEffect": 0,
+      "animName": "waters_of_atlantis/reels/symbol/waters_of_atlantis_leviat.ccbi",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_leviathan.png",
+      "name": "Leviathan",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 2,
+      "symbolValue": 2,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 0,
+      "animName": "waters_of_atlantis/reels/symbol/waters_of_atlantis_waver.ccbi",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_waverider.png",
+      "name": "WaveRider",
+      "payTables": {
+        "2": 2,
+        "3": 25,
+        "4": 100,
+        "5": 750
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_trident.png",
+      "name": "Harpoon",
+      "payTables": {
+        "2": 2,
+        "3": 25,
+        "4": 100,
+        "5": 750
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_pearl.png",
+      "name": "Pearl",
+      "payTables": {
+        "3": 15,
+        "4": 100,
+        "5": 400
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_conch.png",
+      "name": "Conch Jewelry",
+      "payTables": {
+        "3": 10,
+        "4": 75,
+        "5": 250
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_bangle.png",
+      "name": "Bangle",
+      "payTables": {
+        "3": 10,
+        "4": 50,
+        "5": 250
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_a.png",
+      "name": "A",
+      "payTables": {
+        "3": 10,
+        "4": 50,
+        "5": 125
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_k.png",
+      "name": "K",
+      "payTables": {
+        "3": 5,
+        "4": 50,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006,
+      "symbolW": 1
+    },
+    "1007": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_q.png",
+      "name": "Q",
+      "payTables": {
+        "3": 5,
+        "4": 25,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1007,
+      "symbolValue": 1007,
+      "symbolW": 1
+    },
+    "1008": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_j.png",
+      "name": "J",
+      "payTables": {
+        "3": 5,
+        "4": 25,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1008,
+      "symbolValue": 1008,
+      "symbolW": 1
+    },
+    "1009": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_10.png",
+      "name": "10",
+      "payTables": {
+        "3": 5,
+        "4": 25,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1009,
+      "symbolValue": 1009,
+      "symbolW": 1
+    },
+    "1010": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "waters_of_atlantis_9.png",
+      "name": "9",
+      "payTables": {
+        "2": 2,
+        "3": 5,
+        "4": 25,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1010,
+      "symbolValue": 1010,
+      "symbolW": 1
+    }
+  },
+  "client": {
+    "symbolMoveMode": 2056,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "waters_of_atlantis_paytable_1.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "waters_of_atlantis_paytable_2.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "waters_of_atlantis_paytable_3.jpg",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "waters_of_atlantis/reels/bg/waters_of_atlantis_background.jpg",
+    "reelName": "waters_of_atlantis/reels/bg/waters_of_atlantis_wheel.png",
+    "slotSceneType": 5003,
+    "displayName": "Waters of Atlantis",
+    "freeSpinBgMusic": "",
+    "name": "Waters of Atlantis",
+    "resRootDir": "waters_of_atlantis",
+    "spinBgMusic": "waters_of_atlantis/audio_mp3/spin-bg",
+    "symbolBatchName": "waters_of_atlantis/reels/symbol/waters_of_atlantis_symbol_batch.png",
+    "symbolBatchPlistPath": "waters_of_atlantis/reels/symbol/waters_of_atlantis_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/casino_ui_title_video",
+    "spinUiBottomName": "slot/slot_spin_ui_video1024",
+    "spinUiBottomNameIphone": "slot/slot_spin_ui_video1136",
+    "winEffectMap": {
+      "1": {
+        "effectName": "waters_of_atlantis/audio_mp3/small-win",
+        "effectDuration": "3"
+      },
+      "2": {
+        "effectName": "waters_of_atlantis/audio_mp3/mid-win",
+        "effectDuration": "6"
+      },
+      "3": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 30
+      }
+    },
+    "prizePoolType": 1,
+    "functionType": 1
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 402,
+      "scatter": {
+        "freeSpins" : {
+          "3": 15,
+          "4": 15,
+          "5": 15
+        },
+        "pays": {
+          "2": 2,
+          "3": 5,
+          "4": 20,
+          "5": 400
+        }
+      }
+    }
+  }
+}

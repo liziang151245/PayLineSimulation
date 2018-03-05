@@ -1,0 +1,678 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          204,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          0,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          51,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          102,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          255,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          102,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          102,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          153,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          51,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 3,
+      "slotsWidth": 128,
+      "spinRegion": [
+        225,
+        189,
+        683,
+        260
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 50049
+    }
+  ],
+  "reelCol": 5,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 50049,
+  "symbolOpType": 1,
+  "symbols": {
+    "1": {
+      "animEffect": 0,
+      "animName": "cheer_for_america/reels/symbol/cheer_for_america_yanhua.ccbi",
+      "bgName": "",
+      "imgName": "cheer_for_america_yanhua.png",
+      "name": "Wild",
+      "payTables": {},
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "multiple": 2
+    },
+    "2": {
+      "animEffect": 0,
+      "animName": "cheer_for_america/reels/symbol/cheer_for_america_ziyouzhong.ccbi",
+      "bgName": "",
+      "imgName": "cheer_for_america_ziyouzhong.png",
+      "name": "Bonus",
+      "payTables": null,
+      "reelMask": 21,
+      "reelMaskFree": 0,
+      "symbolH": 1,
+      "symbolId": 2,
+      "symbolValue": 2,
+      "symbolW": 1
+    },
+    "6": {
+      "animEffect": 2,
+      "animName": "cheer_for_america/reels/symbol/cheer_for_america_shanmudashu.ccbi",
+      "bgName": "",
+      "imgName": "cheer_for_america_shanmudashu.png",
+      "name": "Uncle Sam",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 6,
+      "symbolValue": 6,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "cheer_for_america_red7.png",
+      "name": "Red 7",
+      "payTables": {
+        "2": 5,
+        "3": 15,
+        "4": 45,
+        "5": 150
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "cheer_for_america_blue7.png",
+      "name": "Blue 7",
+      "payTables": {
+        "2": 4,
+        "3": 12,
+        "4": 36,
+        "5": 120
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "cheer_for_america_white7.png",
+      "name": "White 7",
+      "payTables": {
+        "3": 10,
+        "4": 30,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "cheer_for_america_guoqi.png",
+      "name": "Mini Star",
+      "payTables": {
+        "3": 2,
+        "4": 6,
+        "5": 20
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "cheer_for_america_rili.png",
+      "name": "Calendar",
+      "payTables": {
+        "3": 2,
+        "4": 6,
+        "5": 20
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "cheer_for_america_meijin.png",
+      "name": "Dollar $",
+      "payTables": {
+        "3": 2,
+        "4": 6,
+        "5": 20
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "cheer_for_america_gu.png",
+      "name": "Drum",
+      "payTables": {
+        "3": 2,
+        "4": 6,
+        "5": 20
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006,
+      "symbolW": 1
+    }
+
+  },
+  "client": {
+    "symbolMoveMode": 1796,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "cheer_for_america_paytable.png",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "cheer_for_america_paytable2.png",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "bgName": "cheer_for_america/reels/bg/cheer_for_america_background.jpg",
+    "reelName": "",
+    "slotSceneType": 50049,
+    "displayName": "Cheer for America",
+    "freeSpinBgMusic": "cheer_for_america/audio_mp3/cheerforamerica-bgm",
+    "name": "Cheer for America",
+    "resRootDir": "cheer_for_america",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-2"
+    ],
+    "symbolBatchName": "cheer_for_america/reels/symbol/cheer_for_america_symbol_batch.png",
+    "symbolBatchPlistPath": "cheer_for_america/reels/symbol/cheer_for_america_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": "3"
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": "3"
+      },
+      "3": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 20
+      }
+    },
+    "functionType": 2,
+    "showJackpotTitle": false
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 149,
+      "stackRewards" : {
+        "4" : 4,
+        "5" : 5
+      },
+      "stackJackpotLevelMap": {
+        "6": 2,
+        "7": 3,
+        "8": 4,
+        "9": 5,
+        "10" : 6
+      },
+      "stackedId": 6,
+      "stackedStart" : 4,
+      "stackedEnd": 10,
+      "freeSpinID" : 2,
+      "freeSpinNum" : 3,
+      "freeSpinCount": 5
+    }
+  }
+}

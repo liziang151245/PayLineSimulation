@@ -1,0 +1,673 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          255,
+          102,
+          51,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          102,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          102,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          153,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          102,
+          153,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          153,
+          0,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          153,
+          51,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          153,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          102,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          153,
+          204,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          51,
+          204,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          102,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          0,
+          2,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 3,
+      "slotsWidth": 176,
+      "spinRegionPolicy": 2,
+      "spinRegionIpad": [
+        58,
+        168,
+        908,
+        504,
+        1,
+        1
+      ],
+      "spinRegionIphone4": [
+        53,
+        135,
+        854,
+        418,
+        0.94,
+        0.83
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 4014
+    }
+  ],
+  "reelCol": 5,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 4014,
+  "symbolOpType": 1,
+  "symbols": {
+    "1": {
+      "animEffect": 0,
+      "animName": "monkey_king/reels/symbol/monkey_king_sunwukong.ccbi",
+      "bgName": "",
+      "imgName": "monkey_king_sunwukong.png",
+      "name": "Monkey King",
+      "payTables": {
+        "2": 10,
+        "3": 200,
+        "4": 2000,
+        "5": 9000
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "2": {
+      "animEffect": 0,
+      "animName": "monkey_king/reels/symbol/monkey_king_jindouyun.ccbi",
+      "bgName": "",
+      "imgName": "monkey_king_jindouyun.png",
+      "name": "Open Cirrus",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 2,
+      "symbolValue": 2,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "monkey_king_tangseng.png",
+      "name": "Monk",
+      "payTables": {
+        "2": 2,
+        "3": 25,
+        "4": 100,
+        "5": 750
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "monkey_king_zhubajie.png",
+      "name": "Pig",
+      "payTables": {
+        "2": 2,
+        "3": 25,
+        "4": 100,
+        "5": 750
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "monkey_king_shaseng.png",
+      "name": "Sha Wujing",
+      "payTables": {
+        "3": 15,
+        "4": 100,
+        "5": 400
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "monkey_king_ma.png",
+      "name": "White Dragon Horse",
+      "payTables": {
+        "3": 10,
+        "4": 75,
+        "5": 250
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "monkey_king_xingli.png",
+      "name": "Luggage",
+      "payTables": {
+        "3": 10,
+        "4": 50,
+        "5": 250
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "monkey_king_a.png",
+      "name": "A",
+      "payTables": {
+        "3": 10,
+        "4": 50,
+        "5": 125
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "monkey_king_k.png",
+      "name": "K",
+      "payTables": {
+        "3": 5,
+        "4": 50,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1006,
+      "symbolValue": 1006,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1007": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "monkey_king_q.png",
+      "name": "Q",
+      "payTables": {
+        "3": 5,
+        "4": 25,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1007,
+      "symbolValue": 1007,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1008": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "monkey_king_j.png",
+      "name": "J",
+      "payTables": {
+        "3": 5,
+        "4": 25,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1008,
+      "symbolValue": 1008,
+      "symbolW": 1,
+      "symbolH": 1
+    },
+    "1009": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "monkey_king_10.png",
+      "name": "10",
+      "payTables": {
+        "3": 5,
+        "4": 25,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1009,
+      "symbolValue": 1009,
+      "symbolW": 1
+    },
+    "1010": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "monkey_king_9.png",
+      "name": "9",
+      "payTables": {
+        "2": 2,
+        "3": 5,
+        "4": 25,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolId": 1010,
+      "symbolValue": 1010,
+      "symbolW": 1,
+      "symbolH": 1
+    }
+  },
+  "client": {
+    "symbolMoveMode": 0,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "monkey_king_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "monkey_king_paytable2.png",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "monkey_king/reels/bg/monkey_king_background.jpg",
+    "reelName": "monkey_king/reels/bg/monkey_king_wheel.png",
+    "slotSceneType": 4014,
+    "displayName": "Monkey King",
+    "freeSpinBgMusic": "",
+    "name": "Monkey King",
+    "resRootDir": "monkey_king",
+    "spinBgMusic": "",
+    "symbolBatchName": "monkey_king/reels/symbol/monkey_king_symbol_batch.png",
+    "symbolBatchPlistPath": "monkey_king/reels/symbol/monkey_king_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/casino_ui_title_video",
+    "spinUiBottomName": "slot/slot_spin_ui_video1024",
+    "spinUiBottomNameIphone": "slot/slot_spin_ui_video1136",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "3": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 20
+      }
+    },
+    "prizePoolType": 1,
+    "functionType": 1,
+    "isVideo": true
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 402,
+      "scatter": {
+        "freeSpins" : {
+          "3": 15,
+          "4": 15,
+          "5": 15
+        },
+        "pays": {
+          "2": 2,
+          "3": 5,
+          "4": 20,
+          "5": 400
+        }
+      }
+    }
+  }
+}

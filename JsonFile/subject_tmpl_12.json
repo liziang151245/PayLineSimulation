@@ -1,0 +1,735 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          204,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          0,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          51,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          102,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          153,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          51,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          0,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          51,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 3,
+      "slotsWidth": 139,
+      "spinRegion": [
+        193,
+        193,
+        750,
+        279
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 108
+    }
+  ],
+  "reelCol": 5,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 12,
+  "symbolOpType": 1,
+  "symbols": {
+    "1": {
+      "animEffect": 0,
+      "animName": "superfruits/reels/symbol/superfruits_wild.ccbi",
+      "bgName": "",
+      "imgName": "superfruits_wild.png",
+      "name": "Wild",
+      "payTables": {
+        "2": 5,
+        "3": 50,
+        "4": 150,
+        "5": "Jackpot"
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "2": {
+      "animEffect": 0,
+      "animName": "superfruits/reels/symbol/superfruits_scatter.ccbi",
+      "bgName": "",
+      "imgName": "superfruits_scatter.png",
+      "name": "Scatter",
+      "payTables": {
+        "3": 10
+      },
+      "reelMask": 21,
+      "reelMaskFree": 21,
+      "symbolH": 1,
+      "symbolId": 2,
+      "symbolValue": 2,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "superfruits_777.png",
+      "name": "Three Seven",
+      "payTables": {
+        "2": 4,
+        "3": 40,
+        "4": 120,
+        "5": 400
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "superfruits_7.png",
+      "name": "Seven",
+      "payTables": {
+        "2": 3,
+        "3": 30,
+        "4": 90,
+        "5": 300
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "superfruits_bell.png",
+      "name": "Bell",
+      "payTables": {
+        "2": 1,
+        "3": 15,
+        "4": 45,
+        "5": 150
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "superfruits_3bar.png",
+      "name": "Three Bar",
+      "payTables": {
+        "3": 12,
+        "4": 36,
+        "5": 120
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "superfruits_2bar.png",
+      "name": "Two Bar",
+      "payTables": {
+        "3": 11,
+        "4": 33,
+        "5": 110
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "superfruits_bar.png",
+      "name": "Bar",
+      "payTables": {
+        "3": 10,
+        "4": 30,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "superfruits_lemon.png",
+      "name": "Lemon",
+      "payTables": {
+        "3": 7,
+        "4": 21,
+        "5": 70
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006,
+      "symbolW": 1
+    },
+    "1007": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "superfruits_grape.png",
+      "name": "Grape",
+      "payTables": {
+        "3": 6,
+        "4": 18,
+        "5": 60
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1007,
+      "symbolValue": 1007,
+      "symbolW": 1
+    },
+    "1008": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "superfruits_cherry.png",
+      "name": "Cherry",
+      "payTables": {
+        "3": 5,
+        "4": 15,
+        "5": 50
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1008,
+      "symbolValue": 1008,
+      "symbolW": 1
+    },
+    "1009": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "superfruits_watermelon.png",
+      "name": "Watermelon",
+      "payTables": {
+        "3": 4,
+        "4": 12,
+        "5": 40
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1009,
+      "symbolValue": 1009,
+      "symbolW": 1
+    }
+  },
+  "client": {
+    "symbolMoveMode": 1796,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [
+        ],
+        "specialDescriptions": [
+        ],
+        "specialIds": [
+        ],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "superfruits_paytable.png",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": " RE-SPIN MODE is activated\nwhen 3 or 4 reels are filled\nwith fruits symbols only.\n All the symbols of full fruits\nreels are locked, and 1\nRE-SPIN is rewarded.",
+          "descriptionTemplateId": 1,
+          "image": "superfruits_paytable_1.jpg",
+          "title": "RE-SPIN MODE",
+          "centerImage": false
+        },
+        {
+          "content": " When all 5 reels are filled\nwith fruits symbols,the\nSUPER FRUITS MODE is\nactivated.\n All the coins in the LUCKY\nPOT are rewarded to you.",
+          "descriptionTemplateId": 1,
+          "image": "superfruits_paytable_2.jpg",
+          "title": "SUPER FRUITS MODE",
+          "centerImage": false
+        },
+        {
+          "content": " During your losing spin,when\nthe 7 or 777 symbols appear,\nextra coins will be added up\nto the LUCKY POT.\n Extra coins will not be added\nup to the LUCKY POT in FREE\nSPIN or RE-SPIN MODE.\n The coins in the LUCKY POT\ncan be collected when you have\nplayed more than 150 consecu\n-tive spins at this machine.",
+          "descriptionTemplateId": 1,
+          "image": "superfruits_paytable_3.jpg",
+          "title": "LUCKY POT",
+          "centerImage": false
+        }
+      ]
+    },
+    "bgName": "superfruits/reels/bg/superfruits_background.jpg",
+    "reelName": "",
+    "slotSceneType": 108,
+    "displayName": "Super Fruits",
+    "freeSpinBgMusic": "",
+    "name": "Super Fruits",
+    "resRootDir": "superfruits",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-3"
+    ],
+    "symbolBatchName": "superfruits/reels/symbol/superfruits_symbol_batch.png",
+    "symbolBatchPlistPath": "superfruits/reels/symbol/superfruits_symbol_batch.plist",
+    "spinUiTitleName": "casino/casino_ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-3",
+        "effectDuration": 2.5
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-3",
+        "effectDuration": 2.5
+      },
+      "3": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-3",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-3",
+        "effectDuration": 30
+      }
+    },
+    "functionType": 2
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 110,
+      "fruitSymbolIds": [
+        1006,
+        1007,
+        1008,
+        1009
+      ],
+      "luckyPotPayTableMap": {
+        "1000": 3,
+        "1001": 1
+      },
+      "luckyPotBaseCoins": 10000,
+      "luckyPotSpinCount": 150
+    }
+  }
+}

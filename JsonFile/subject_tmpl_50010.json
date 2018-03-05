@@ -1,0 +1,565 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "rows": [
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 3,
+      "slotRows": 3,
+      "slotsWidth": 198,
+      "spinRegion": [
+        228,
+        183,
+        670,
+        276
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 50010
+    }
+  ],
+  "reelCol": 3,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 50010,
+  "symbolOpType": 1,
+  "symbols": {
+    "3": {
+      "animEffect": 0,
+      "animName": "",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3,
+      "symbolW": 1
+    },
+    "1": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "triple_diamond_triple_diamond.png",
+      "name": "Triple Diamond",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "1101": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "triple_diamond_double_diamond.png",
+      "name": "Double Win",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1101,
+      "symbolValue": 1101,
+      "symbolW": 1
+    },
+    "1102": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "triple_diamond_5xwild.png",
+      "name": "5xWild",
+      "payTables": null,
+      "reelMask": 2,
+      "reelMaskFree": 2,
+      "symbolH": 1,
+      "symbolId": 1102,
+      "symbolValue": 1102,
+      "symbolW": 1
+    },
+    "1103": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "triple_diamond_2xwild.png",
+      "name": "2xWild",
+      "payTables": null,
+      "reelMask": 2,
+      "reelMaskFree": 2,
+      "symbolH": 1,
+      "symbolId": 1103,
+      "symbolValue": 1103,
+      "symbolW": 1
+    },
+    "1104": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "triple_diamond_1xwild.png",
+      "name": "1xWild",
+      "payTables": null,
+      "reelMask": 2,
+      "reelMaskFree": 2,
+      "symbolH": 1,
+      "symbolId": 1104,
+      "symbolValue": 1104,
+      "symbolW": 1
+    },
+    "6": {
+      "animEffect": 2,
+      "animName": "triple_diamond/reels/symbol/triple_diamond_jackpot.ccbi",
+      "bgName": "",
+      "imgName": "triple_diamond_jackpot.png",
+      "name": "Jackpot",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 6,
+      "symbolValue": 6,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "triple_diamond_7.png",
+      "name": "Seven",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "triple_diamond_3bar.png",
+      "name": "Three Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "triple_diamond_2bar.png",
+      "name": "Two Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "triple_diamond_bar.png",
+      "name": "One Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    }
+  },
+  "specialPayTables": [
+    {
+      "index": 0,
+      "type": 0,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "pays": [
+        72
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "symbols": [
+        [
+          1101
+        ],
+        [
+          1101
+        ],
+        [
+          1101
+        ]
+      ],
+      "pays": [
+        32
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "symbols": [
+        [
+          1000
+        ],
+        [
+          1000
+        ],
+        [
+          1000
+        ]
+      ],
+      "pays": [
+        20
+      ],
+      "mismatchWildSeq": true
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "symbols": [
+        [
+          1001
+        ],
+        [
+          1001
+        ],
+        [
+          1001
+        ]
+      ],
+      "pays": [
+        12
+      ],
+      "mismatchWildSeq": true
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "symbols": [
+        [
+          1002
+        ],
+        [
+          1002
+        ],
+        [
+          1002
+        ]
+      ],
+      "pays": [
+        8
+      ],
+      "mismatchWildSeq": true
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "symbols": [
+        [
+          1003
+        ],
+        [
+          1003
+        ],
+        [
+          1003
+        ]
+      ],
+      "pays": [
+        5
+      ],
+      "mismatchWildSeq": true
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "symbols": [
+        [
+          1001,
+          1002,
+          1003
+        ],
+        [
+          1001,
+          1002,
+          1003
+        ],
+        [
+          1001,
+          1002,
+          1003
+        ]
+      ],
+      "pays": [
+        3
+      ],
+      "mismatchWildSeq": true
+    },
+    {
+      "index": 7,
+      "type": 1,
+      "symbols": [
+        [
+          1,
+          1101
+        ],
+        [
+          1,
+          1101
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        1
+      ]
+    },
+    {
+      "index": 8,
+      "type": 1,
+      "symbols": [
+        [
+          1,
+          1101
+        ],
+        [
+          -2
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        1
+      ]
+    }
+  ],
+  "totalBetJackpotLevelMap": {
+    "5000": 3,
+    "50000": 3,
+    "100000": 4,
+    "250000": 4,
+    "500000": 4,
+    "1000000": 4,
+    "5000000": 4,
+    "10000000": 4,
+    "50000000": 4
+  },
+  "client": {
+    "symbolMoveMode": 1796,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "triple_diamond_paytable1.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "triple_diamond_paytable2.jpg",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "triple_diamond/reels/bg/triple_diamond_background.jpg",
+    "reelName": "",
+    "slotSceneType": 50010,
+    "displayName": "TripleHit Diamond",
+    "freeSpinBgMusic": "",
+    "name": "Triple Diamond",
+    "resRootDir": "triple_diamond",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-1"
+    ],
+    "symbolBatchName": "triple_diamond/reels/symbol/triple_diamond_symbol_batch.png",
+    "symbolBatchPlistPath": "triple_diamond/reels/symbol/triple_diamond_symbol_batch.plist",
+    "spinUiTitleName": "casino/ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "3": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 20
+      }
+    },
+    "functionType": 2,
+    "showJackpotTitle": false
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 108,
+      "extraPays": [
+        {
+          "symbolValue": 1,
+          "specialPayTables": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "multi": [
+            1,
+            3,
+            9
+          ]
+        },
+        {
+          "symbolValue": 1101,
+          "specialPayTables": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "multi": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "symbolValue": 1102,
+          "specialPayTables": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "multi": [
+            1,
+            5,
+            25
+          ]
+        },
+        {
+          "symbolValue": 1103,
+          "specialPayTables": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "multi": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "symbolValue": 1104,
+          "specialPayTables": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "multi": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "jackpotSymbolId": 6,
+      "jackpotCountLevelMap": {
+        "3": 0,
+        "4": 1,
+        "5": 2,
+        "6": 3
+      },
+      "lockIds": [1102, 1103, 1104]
+    }
+  }
+}

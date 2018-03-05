@@ -1,0 +1,543 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 0,
+  "lines": [
+    [
+      {
+        "color": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "rows": [
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 3,
+      "slotRows": 3,
+      "slotsWidth": 214,
+      "spinRegion": [
+        210,
+        200,
+        705,
+        348
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 3002
+    }
+  ],
+  "reelCol": 3,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 3002,
+  "symbolOpType": 1,
+  "symbols": {
+    "3": {
+      "animEffect": 0,
+      "animName": "",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3,
+      "symbolW": 1
+    },
+    "0": {
+      "animEffect": 0,
+      "animName": "lucky_wheel/reels/symbol/lucky_wheel_bouns.ccbi",
+      "bgName": "",
+      "imgName": "lucky_wheel_bonus.png",
+      "name": "Wild 5X",
+      "payTables": null,
+      "reelMask": 4,
+      "reelMaskFree": 4,
+      "symbolH": 1,
+      "symbolId": 0,
+      "symbolValue": 0,
+      "symbolW": 1
+    },
+    "1": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_wheel_zs3.png",
+      "name": "Wild 3X",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "1101": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_wheel_zs2.png",
+      "name": "Wild 2X",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1101,
+      "symbolValue": 1101,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_wheel_r7.png",
+      "name": "Red 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_wheel_b7.png",
+      "name": "Blue 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_wheel_3bar.png",
+      "name": "Three Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_wheel_2bar.png",
+      "name": "Two Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_wheel_bar.png",
+      "name": "One Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_wheel_yintao.png",
+      "name": "Cherry",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1
+    }
+  },
+  "specialPayTables": [
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "pays": [
+        1000
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1,
+          1101
+        ],
+        [
+          1,
+          1101
+        ],
+        [
+          1,
+          1101
+        ]
+      ],
+      "pays": [
+        800
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1000
+        ],
+        [
+          1000
+        ],
+        [
+          1000
+        ]
+      ],
+      "pays": [
+        50
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1001
+        ],
+        [
+          1001
+        ],
+        [
+          1001
+        ]
+      ],
+      "pays": [
+        40
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1002
+        ],
+        [
+          1002
+        ],
+        [
+          1002
+        ]
+      ],
+      "pays": [
+        20
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1003
+        ],
+        [
+          1003
+        ],
+        [
+          1003
+        ]
+      ],
+      "pays": [
+        15
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1004
+        ],
+        [
+          1004
+        ],
+        [
+          1004
+        ]
+      ],
+      "pays": [
+        10
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1005
+        ],
+        [
+          1005
+        ],
+        [
+          1005
+        ]
+      ],
+      "pays": [
+        10
+      ],
+      "wilds": []
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1002,
+          1003,
+          1004
+        ],
+        [
+          1002,
+          1003,
+          1004
+        ],
+        [
+          1002,
+          1003,
+          1004
+        ]
+      ],
+      "pays": [
+        5
+      ]
+    },
+    {
+      "type": 1,
+      "symbols": [
+        [
+          1005
+        ],
+        [
+          1005
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        5
+      ],
+      "wilds": []
+    },
+    {
+      "type": 1,
+      "symbols": [
+        [
+          1005
+        ],
+        [
+          -2
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        2
+      ],
+      "wilds": []
+    }
+  ],
+  "client": {
+    "symbolMoveMode": 1796,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "lucky_wheel_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "lucky_wheel/reels/bg/lucky_wheel_background.jpg",
+    "reelName": "",
+    "slotSceneType": 3002,
+    "displayName": "Lucky Wheel",
+    "freeSpinBgMusic": "",
+    "name": "Lucky Wheel",
+    "resRootDir": "lucky_wheel",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-1"
+    ],
+    "symbolBatchName": "lucky_wheel/reels/symbol/lucky_wheel_symbol_batch.png",
+    "symbolBatchPlistPath": "lucky_wheel/reels/symbol/lucky_wheel_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/casino_ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": "3"
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": "3"
+      },
+      "3": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 30
+      }
+    },
+    "functionType": 2
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 302,
+      "extraPays": [
+        {
+          "symbolValue": 1,
+          "specialPayTables": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "multi": [
+            1,
+            3,
+            9
+          ]
+        },
+        {
+          "symbolValue": 1101,
+          "specialPayTables": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "multi": [
+            1,
+            2,
+            4
+          ]
+        }
+      ],
+      "bonusConfig": {
+        "needBonusCount": 1,
+        "winTable": [
+          500,
+          12,
+          40,
+          20,
+          80,
+          10,
+          150,
+          25,
+          60,
+          15,
+          50,
+          20,
+          250,
+          15,
+          30,
+          12,
+          100,
+          25,
+          200,
+          10
+        ],
+        "winTableProb": [
+          4,
+          6000,
+          500,
+          2000,
+          100,
+          2000,
+          50,
+          400,
+          250,
+          3000,
+          300,
+          3000,
+          8,
+          5000,
+          800,
+          4000,
+          75,
+          600,
+          30,
+          4000
+        ]
+      }
+    }
+  }
+}

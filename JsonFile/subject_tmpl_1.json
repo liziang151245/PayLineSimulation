@@ -1,0 +1,1130 @@
+{
+  "bgName": "diamond_fortune/reels/bg/diamond_fortune_background.jpg",
+  "slotSceneType": 1,
+  "bonusId": 2,
+  "payTableConfig": {
+    "payTableType": 0,
+    "descriptions": [
+      {
+        "content": "",
+        "descriptionTemplateId": 1,
+        "image": "diamond_fortune_paytable.jpg",
+        "title": "",
+        "centerImage": true
+      },
+      {
+        "content": "",
+        "descriptionTemplateId": 1,
+        "image": "diamond_fortune_paytable2.png",
+        "title": "",
+        "centerImage": true,
+        "show": false
+      }
+    ],
+    "specialDescription": {
+      "specialTitles": [],
+      "specialDescriptions": [],
+      "specialIds": [],
+      "specialTemplateId": 0
+    }
+  },
+  "displayName": "Diamond Fortune",
+  "freeSpinBgMusic": "",
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          51,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          204,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2
+        ]
+      }
+    ]
+  ],
+  "name": "diamond_fortune",
+  "normalSpinPanels": 1,
+  "panelType": 0,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 3,
+      "slotRows": 3,
+      "slotsWidth": 226,
+      "spinRegion": [
+        199,
+        198,
+        733,
+        308
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 1
+    }
+  ],
+  "reelCol": 3,
+  "reelRow": 3,
+  "resRootDir": "diamond_fortune",
+  "spinBgMusicArray": [
+    "slots/spin_bg/spin-bg-2"
+  ],
+  "spinType": 1,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 1,
+  "symbolBatchName": "diamond_fortune/reels/symbol/diamond_fortune_symbol_batch.png",
+  "symbolBatchPlistPath": "diamond_fortune/reels/symbol/diamond_fortune_symbol_batch.plist",
+  "symbolMoveMode": 1796,
+  "symbolOpType": 1,
+  "symbols": {
+    "1": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "diamond_fortune_diamond.png",
+      "name": "Diamond",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "3": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "diamond_fortune_7red.png",
+      "name": "Red Seven",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "diamond_fortune_3bar.png",
+      "name": "Three Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "diamond_fortune_2bar.png",
+      "name": "Two Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "diamond_fortune_bar.png",
+      "name": "Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    }
+  },
+  "maxBetGrade": 1,
+  "specialPayTables": [
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "pays": [
+        1200,
+        2400,
+        4800
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1000
+        ],
+        [
+          1000
+        ],
+        [
+          1000
+        ]
+      ],
+      "pays": [
+        100,
+        200,
+        300
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1001
+        ],
+        [
+          1001
+        ],
+        [
+          1001
+        ]
+      ],
+      "pays": [
+        40,
+        80,
+        120
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1002
+        ],
+        [
+          1002
+        ],
+        [
+          1002
+        ]
+      ],
+      "pays": [
+        20,
+        40,
+        60
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1003
+        ],
+        [
+          1003
+        ],
+        [
+          1003
+        ]
+      ],
+      "pays": [
+        10,
+        20,
+        30
+      ]
+    },
+    {
+      "type": 1,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        10,
+        20,
+        30
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1001,
+          1002,
+          1003
+        ],
+        [
+          1001,
+          1002,
+          1003
+        ],
+        [
+          1001,
+          1002,
+          1003
+        ]
+      ],
+      "pays": [
+        5,
+        10,
+        15
+      ]
+    },
+    {
+      "type": 1,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          -2
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        2,
+        4,
+        6
+      ]
+    }
+  ],
+  "jackpotSymbolValue": 1000,
+  "symbolGroup": [
+    [
+      1003
+    ]
+  ],
+  "specials": {
+    "type": 1,
+    "pattern": [
+      [
+        0,
+        3,
+        0
+      ],
+      [
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0
+      ]
+    ],
+    "extraPays": [
+      {
+        "symbolValue": 1,
+        "specialPayTables": [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "multi": [
+          1,
+          3,
+          9
+        ]
+      }
+    ],
+    "dumb": [
+      [
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ]
+      ]
+    ]
+  },
+  "unlockStar": 0,
+  "spinUiTitleName": "casino/ui_title",
+  "spinUiBottomName": "slot/slot_spin_ui",
+  "winEffectMap": {
+    "1": {
+      "effectName": "slots/small_win/small-win-2",
+      "effectDuration": 3
+    },
+    "2": {
+      "effectName": "slots/small_win/small-win-2",
+      "effectDuration": 3
+    },
+    "3": {
+      "effectName": "slots/small_win/small-win-1",
+      "effectDuration": 10
+    },
+    "4": {
+      "effectType": 1,
+      "effectName": "slots/small_win/small-win-1",
+      "effectDuration": 20
+    }
+  },
+  "functionType": 2
+}

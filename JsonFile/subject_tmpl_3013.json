@@ -1,0 +1,612 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 0,
+  "lines": [
+    [
+      {
+        "color": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "rows": [
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 3,
+      "slotRows": 3,
+      "slotsWidth": 214,
+      "spinRegion": [
+        228,
+        203,
+        679,
+        348
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 3013
+    }
+  ],
+  "reelCol": 3,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 3013,
+  "symbolOpType": 1,
+  "symbols": {
+    "3": {
+      "animEffect": 0,
+      "animName": "",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3
+    },
+    "1": {
+      "animEffect": 0,
+      "animName": "lucky_christmas/reels/symbol/lucky_christmas_5x.ccbi",
+      "bgName": "",
+      "imgName": "lucky_christmas_5x.png",
+      "name": "Santa",
+      "payTables": null,
+      "reelMask": 2,
+      "reelMaskFree": 2 ,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1
+    },
+    "1101": {
+      "animEffect": 0,
+      "animName": "lucky_christmas/reels/symbol/lucky_christmas_4x.ccbi",
+      "bgName": "",
+      "imgName": "lucky_christmas_4x.png",
+      "name": "Snowman",
+      "payTables": null,
+      "reelMask": 2,
+      "reelMaskFree": 2,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1101,
+      "symbolValue": 1101
+    },
+    "1102": {
+      "animEffect": 0,
+      "animName": "lucky_christmas/reels/symbol/lucky_christmas_3x.ccbi",
+      "bgName": "",
+      "imgName": "lucky_christmas_3x.png",
+      "name": "Christmas Bell",
+      "payTables": null,
+      "reelMask": 2,
+      "reelMaskFree": 2,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1102,
+      "symbolValue": 1102
+    },
+    "1103": {
+      "animEffect": 0,
+      "animName": "lucky_christmas/reels/symbol/lucky_christmas_2x.ccbi",
+      "bgName": "",
+      "imgName": "lucky_christmas_2x.png",
+      "name": "Deer",
+      "payTables": null,
+      "reelMask": 5,
+      "reelMaskFree": 5,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1103,
+      "symbolValue": 1103
+    },
+    "1000": {
+      "animEffect": 6,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_christmas_r7.png",
+      "name": "Red 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000
+    },
+    "1001": {
+      "animEffect": 6,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_christmas_p7.png",
+      "name": "Pink 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001
+    },
+    "1002": {
+      "animEffect": 6,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_christmas_b7.png",
+      "name": "Blue 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002
+    },
+    "1003": {
+      "animEffect": 6,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_christmas_w7.png",
+      "name": "White 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003
+    },
+    "1004": {
+      "animEffect": 6,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_christmas_3bar.png",
+      "name": "Triple Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004
+    },
+    "1005": {
+      "animEffect": 6,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_christmas_2bar.png",
+      "name": "Triple Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005
+    },
+    "1006": {
+      "animEffect": 6,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_christmas_bar.png",
+      "name": "Triple Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006
+    }
+  },
+  "specialPayTables": [
+    {
+      "index": 0,
+      "type": 0,
+      "symbols": [
+        [
+          1103
+        ],
+        [
+          1
+        ],
+        [
+          1103
+        ]
+      ],
+      "pays": [
+        1000
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "symbols": [
+        [
+          1103
+        ],
+        [
+          1101
+        ],
+        [
+          1103
+        ]
+      ],
+      "pays": [
+        400
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "symbols": [
+        [
+          1103
+        ],
+        [
+          1102
+        ],
+        [
+          1103
+        ]
+      ],
+      "pays": [
+        300
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "symbols": [
+        [
+          1000
+        ],
+        [
+          1000
+        ],
+        [
+          1000
+        ]
+      ],
+      "pays": [
+        20
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "symbols": [
+        [
+          1001
+        ],
+        [
+          1001
+        ],
+        [
+          1001
+        ]
+      ],
+      "pays": [
+        15
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "symbols": [
+        [
+          1002
+        ],
+        [
+          1002
+        ],
+        [
+          1002
+        ]
+      ],
+      "pays": [
+        12
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "symbols": [
+        [
+          1003
+        ],
+        [
+          1003
+        ],
+        [
+          1003
+        ]
+      ],
+      "pays": [
+        10
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "symbols": [
+        [
+          1004
+        ],
+        [
+          1004
+        ],
+        [
+          1004
+        ]
+      ],
+      "pays": [
+        5
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "symbols": [
+        [
+          1005
+        ],
+        [
+          1005
+        ],
+        [
+          1005
+        ]
+      ],
+      "pays": [
+        4
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "symbols": [
+        [
+          1006
+        ],
+        [
+          1006
+        ],
+        [
+          1006
+        ]
+      ],
+      "pays": [
+        3
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "symbols": [
+        [
+          1000,
+          1001,
+          1002,
+          1003
+        ],
+        [
+          1000,
+          1001,
+          1002,
+          1003
+        ],
+        [
+          1000,
+          1001,
+          1002,
+          1003
+        ]
+      ],
+      "pays": [
+        3
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "symbols": [
+        [
+          1003,
+          1006
+        ],
+        [
+          1003,
+          1006
+        ],
+        [
+          1003,
+          1006
+        ]
+      ],
+      "pays": [
+        3
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "symbols": [
+        [
+          1003,
+          1004,
+          1005,
+          1006
+        ],
+        [
+          1003,
+          1004,
+          1005,
+          1006
+        ],
+        [
+          1003,
+          1004,
+          1005,
+          1006
+        ]
+      ],
+      "pays": [
+        1
+      ]
+    },
+    {
+      "index": 13,
+      "type": 1,
+      "symbols": [
+        [
+          1,
+          1101,
+          1102,
+          1103
+        ],
+        [
+          1,
+          1101,
+          1102,
+          1103
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        1
+      ]
+    },
+    {
+      "index": 14,
+      "type": 1,
+      "symbols": [
+        [
+          1,
+          1101,
+          1102,
+          1103
+        ],
+        [
+          -2
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        1
+      ]
+    }
+  ],
+  "client": {
+    "symbolMoveMode": 1796,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "lucky_christmas_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "lucky_christmas/reels/bg/lucky_christmas_background.jpg",
+    "reelName": "",
+    "slotSceneType": 3013,
+    "displayName": "Lucky Christmas",
+    "freeSpinBgMusic": "",
+    "name": "Lucky Christmas",
+    "resRootDir": "lucky_christmas",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-1"
+    ],
+    "symbolBatchName": "lucky_christmas/reels/symbol/lucky_christmas_symbol_batch.png",
+    "symbolBatchPlistPath": "lucky_christmas/reels/symbol/lucky_christmas_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "3": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 20
+      }
+    },
+    "functionType": 2
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 313,
+      "extraPays": [
+        {
+          "symbolValue": 1,
+          "specialPayTables": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+          "multi": [1, 5, 25]
+        },
+        {
+          "symbolValue": 1101,
+          "specialPayTables": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+          "multi": [1, 4, 16]
+        },
+        {
+          "symbolValue": 1102,
+          "specialPayTables": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+          "multi": [1, 3, 9]
+        },
+        {
+          "symbolValue": 1103,
+          "specialPayTables": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+          "multi": [1, 2, 4]
+        }
+      ]
+    }
+  }
+}

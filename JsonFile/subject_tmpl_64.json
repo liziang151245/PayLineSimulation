@@ -1,0 +1,843 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          166,
+          232,
+          106,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          106,
+          232,
+          222,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          106,
+          115,
+          232,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          252,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          187,
+          91,
+          255,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          138,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          0,
+          132,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          98,
+          255,
+          190,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          68,
+          54,
+          255,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          216,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          105,
+          0,
+          235,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          112,
+          247,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          186,
+          0,
+          193,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          143,
+          143,
+          143,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          211,
+          149,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          174,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          198,
+          171,
+          253,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          192,
+          14,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          124,
+          124,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          53,
+          3,
+          168,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          122,
+          153,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          146,
+          32,
+          243,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          167,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 3,
+      "slotsWidth": 140,
+      "spinRegion": [
+        200,
+        218,
+        730,
+        290
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 164
+    }
+  ],
+  "reelCol": 5,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 64,
+  "symbolOpType": 1,
+  "symbols": {
+    "1": {
+      "animEffect": 0,
+      "animName": "fire777_25line/reels/symbol/fire777_25line_wild_s.ccbi",
+      "bgName": "",
+      "imgName": "wild_s.png",
+      "name": "wild",
+      "payTables": {
+        "3": 20,
+        "4": 60,
+        "5": 200
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "multiple": 1
+    },
+    "1102": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "3x.png",
+      "name": "wild 3X",
+      "payTables": {},
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1102,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "multiple": 3
+    },
+    "1103": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "4x.png",
+      "name": "wild 4X",
+      "payTables": {},
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1103,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "multiple": 4
+    },
+    "1104": {
+      "animEffect": 0,
+      "animName": "fire777_25line/reels/symbol/fire777_25line_wild_l.ccbi",
+      "bgName": "",
+      "imgName": "wild_l.png",
+      "name": "wild stacked",
+      "payTables": {},
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 3,
+      "symbolId": 1104,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "multiple": 1
+    },
+    "1105": {
+      "animEffect": 0,
+      "animName": "fire777_25line/reels/symbol/fire777_25line_2x_l.ccbi",
+      "bgName": "",
+      "imgName": "2x_l.png",
+      "name": "wild 2X stacked",
+      "payTables": {},
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 3,
+      "symbolId": 1105,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "multiple": 2
+    },
+    "1106": {
+      "animEffect": 0,
+      "animName": "fire777_25line/reels/symbol/fire777_25line_3x_l.ccbi",
+      "bgName": "",
+      "imgName": "3x_l.png",
+      "name": "wild 3X stacked",
+      "payTables": {},
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 3,
+      "symbolId": 1106,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "multiple": 3
+    },
+    "1107": {
+      "animEffect": 0,
+      "animName": "fire777_25line/reels/symbol/fire777_25line_4x_l.ccbi",
+      "bgName": "",
+      "imgName": "4x_l.png",
+      "name": "wild 4X stacked",
+      "payTables": {},
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 3,
+      "symbolId": 1107,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "multiple": 4
+    },
+    "1108": {
+      "animEffect": 2,
+      "animName": "fire777_25line/reels/symbol/fire777_25line_wild_l_n.ccbi",
+      "bgName": "",
+      "imgName": "wild_l.png",
+      "name": "wild slide",
+      "payTables": {},
+      "reelMask": 0,
+      "reelMaskFree": 255,
+      "symbolH": 3,
+      "symbolId": 1108,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "multiple": 1
+    },
+    "1109": {
+      "animEffect": 2,
+      "animName": "fire777_25line/reels/symbol/fire777_25line_2x_l_n.ccbi",
+      "bgName": "",
+      "imgName": "2x_l.png",
+      "name": "wild 2X slide",
+      "payTables": {},
+      "reelMask": 0,
+      "reelMaskFree": 255,
+      "symbolH": 3,
+      "symbolId": 1109,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "multiple": 2
+    },
+    "2": {
+      "animEffect": 0,
+      "animName": "fire777_25line/reels/symbol/fire777_25line_freegames.ccbi",
+      "bgName": "",
+      "imgName": "freegames.png",
+      "name": "scatter",
+      "payTables": {
+        "3": 5
+      },
+      "reelMask": 245,
+      "reelMaskFree": 0,
+      "symbolH": 1,
+      "symbolId": 2,
+      "symbolValue": 2,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "777.png",
+      "name": "red 777",
+      "payTables": {
+        "3": 20,
+        "4": 60,
+        "5": 200
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "77.png",
+      "name": "red 77",
+      "payTables": {
+        "3": 15,
+        "4": 45,
+        "5": 150
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "7.png",
+      "name": "red 7",
+      "payTables": {
+        "3": 10,
+        "4": 30,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "bar3.png",
+      "name": "3 bar",
+      "payTables": {
+        "3": 5,
+        "4": 15,
+        "5": 50
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "bar2.png",
+      "name": "2 bar",
+      "payTables": {
+        "3": 4,
+        "4": 12,
+        "5": 40
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "bar.png",
+      "name": "bar",
+      "payTables": {
+        "3": 3,
+        "4": 9,
+        "5": 30
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "bell.png",
+      "name": "bell",
+      "payTables": {
+        "3": 3,
+        "4": 9,
+        "5": 30
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006,
+      "symbolW": 1
+    },
+    "1007": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "watermelon.png",
+      "name": "dollar",
+      "payTables": {
+        "3": 3,
+        "4": 9,
+        "5": 30
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1007,
+      "symbolValue": 1007,
+      "symbolW": 1
+    },
+    "1008": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lemon.png",
+      "name": "1008",
+      "payTables": {
+        "3": 3,
+        "4": 9,
+        "5": 30
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1008,
+      "symbolValue": 1008,
+      "symbolW": 1
+    },
+    "1009": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "cherry.png",
+      "name": "1009",
+      "payTables": {
+        "3": 2,
+        "4": 6,
+        "5": 20
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1009,
+      "symbolValue": 1009,
+      "symbolW": 1
+    }
+  },
+  "client": {
+    "symbolMoveMode": 1792,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "fire777_paytable_1.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "fire777_paytable_2.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "fire777_paytable_3.jpg",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "fire777_25line/reels/bg/fire777_25l_background.jpg",
+    "reelName": "",
+    "slotSceneType": 164,
+    "displayName": "Blaze 777",
+    "freeSpinBgMusic": "",
+    "name": "Blaze 777",
+    "resRootDir": "fire777_25line",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-1"
+    ],
+    "symbolBatchName": "fire777_25line/reels/symbol/fire777_25line_symbol_batch.png",
+    "symbolBatchPlistPath": "fire777_25line/reels/symbol/fire777_25line_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/casino_ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui",
+    "functionType": 2,
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "3": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 20
+      }
+    }
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 164,
+      "extraPayTable" : {
+        "1000" : 1500,
+        "1001" : 1500,
+        "1002" : 1500,
+        "1003" : 1501,
+        "1004" : 1501,
+        "1005" : 1501
+      },
+      "slideWildMap": {
+        "1108": 1104,
+        "1109": 1105
+      }
+    }
+  }
+}

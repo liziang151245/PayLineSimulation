@@ -1,0 +1,465 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          214,
+          65,
+          75,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          180,
+          47,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          1,
+          126,
+          254,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          174,
+          1,
+          254,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          254,
+          191,
+          1,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 3,
+      "slotsWidth": 140,
+      "spinRegion": [
+        210,
+        192,
+        712,
+        256
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 150
+    }
+  ],
+  "reelCol": 5,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 50,
+  "symbolOpType": 1,
+  "symbols": {
+    "2": {
+      "animEffect": 0,
+      "animName": "all_for_america/reels/symbol/all_for_america_symbol_bonus.ccbi",
+      "bgName": "",
+      "imgName": "all_for_america_symbol_bonus.png",
+      "name": "Scatter",
+      "payTables": {
+        "4": 5,
+        "5": 5,
+        "6": 8,
+        "7": 8,
+        "8": 10,
+        "9": 10
+      },
+      "reelMask": 255,
+      "reelMaskFree": 0,
+      "symbolH": 1,
+      "symbolId": 2,
+      "symbolValue": 2,
+      "symbolW": 1
+    },
+    "3": {
+      "animEffect": 0,
+      "animName": "",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "all_for_america_symbol_seven.png",
+      "name": "flag 7",
+      "payTables": {
+        "3": 150,
+        "4": 300,
+        "5": 500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "all_for_america_symbol_bar3.png",
+      "name": "Rad3 bar",
+      "payTables": {
+        "3": 5,
+        "4": 15,
+        "5": 50
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "all_for_america_symbol_bar2.png",
+      "name": "White2 bar",
+      "payTables": {
+        "3": 3,
+        "4": 9,
+        "5": 30
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "all_for_america_symbol_bar.png",
+      "name": "Blue1 bar",
+      "payTables": {
+        "3": 2,
+        "4": 6,
+        "5": 20
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    }
+  },
+  "specialPayTables": [
+    {
+      "index": 0,
+      "type": 0,
+      "symbols": [
+        [
+          1000
+        ],
+        [
+          1000
+        ],
+        [
+          1000
+        ]
+      ],
+      "pays": [
+        20
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "symbols": [
+        [
+          1001
+        ],
+        [
+          1001
+        ],
+        [
+          1001
+        ]
+      ],
+      "pays": [
+        15
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "symbols": [
+        [
+          1000,
+          1001
+        ],
+        [
+          1000,
+          1001
+        ],
+        [
+          1000,
+          1001
+        ]
+      ],
+      "pays": [
+        3
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "symbols": [
+        [
+          1002
+        ],
+        [
+          1002
+        ],
+        [
+          1002
+        ]
+      ],
+      "pays": [
+        5
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "symbols": [
+        [
+          1003
+        ],
+        [
+          1003
+        ],
+        [
+          1003
+        ]
+      ],
+      "pays": [
+        4
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "symbols": [
+        [
+          1004
+        ],
+        [
+          1004
+        ],
+        [
+          1004
+        ]
+      ],
+      "pays": [
+        3
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "symbols": [
+        [
+          1002,
+          1003,
+          1004
+        ],
+        [
+          1002,
+          1003,
+          1004
+        ],
+        [
+          1002,
+          1003,
+          1004
+        ]
+      ],
+      "pays": [
+        1
+      ]
+    }
+  ],
+  "client": {
+    "symbolMoveMode": 1796,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "all_for_america_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "all_for_america_paytable2.png",
+          "title": "",
+          "centerImage": true,
+          "show": false
+        }
+      ]
+    },
+    "bgName": "all_for_america/reels/bg/all_for_america_background.jpg",
+    "reelName": "",
+    "slotSceneType": 150,
+    "displayName": "All For America",
+    "freeSpinBgMusic": "",
+    "name": "All For America",
+    "resRootDir": "all_for_america",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-2"
+    ],
+    "symbolBatchName": "all_for_america/reels/symbol/all_for_america_symbol_batch.png",
+    "symbolBatchPlistPath": "all_for_america/reels/symbol/all_for_america_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": "3"
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": "3"
+      },
+      "3": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": 30
+      }
+    },
+    "functionType": 4
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 150,
+      "extraPayTable" : {
+        "1001" : 1500,
+        "1002" : 1500,
+        "1003" : 1500
+      },
+      "FreeSpinMulti" : {
+        "3" : 1,
+        "4" : 2,
+        "5" : 3
+      },
+      "FreeSpinRate" : {
+        "6" : 0.5,
+        "8" : 0.3,
+        "10" : 0.2
+      },
+      "FreeSpinLast" : {
+        "2" : 0.5,
+        "1" : 0.3,
+        "0" : 0.2
+      },
+      "RespinProb" : {
+        "1" : 0.5,
+        "2" : 0.3,
+        "3" : 0.2
+      },
+      "SpecialReels" : {
+        "6" : 1,
+        "8" : 2,
+        "10" : 3
+      }
+    }
+  }
+}
+

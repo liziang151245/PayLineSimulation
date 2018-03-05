@@ -1,0 +1,784 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          204,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          0,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          51,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          102,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          153,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          51,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          0,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          51,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 3,
+      "slotsWidth": 138,
+      "spinRegion": [
+        199,
+        179,
+        738,
+        262
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 3010
+    }
+  ],
+  "reelCol": 5,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 3010,
+  "symbolOpType": 1,
+  "symbols": {
+    "1": {
+      "animEffect": 0,
+      "animName": "lucky_vegas/reels/symbol/lucky_vegas_wild.ccbi",
+      "bgName": "",
+      "imgName": "lucky_vegas_wild.png",
+      "name": "Wild",
+      "payTables": {
+        "3": 200,
+        "4": 1000,
+        "5": 10000
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1
+    },
+    "2": {
+      "animEffect": 0,
+      "animName": "lucky_vegas/reels/symbol/lucky_vegas_bonus.ccbi",
+      "bgName": "",
+      "imgName": "lucky_vegas_bonus.png",
+      "name": "Scatter",
+      "payTables": {
+        "3": 10
+      },
+      "reelMask": 21,
+      "reelMaskFree": 21,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 2,
+      "symbolValue": 2
+    },
+    "6": {
+      "animEffect": 0,
+      "animName": "lucky_vegas/reels/symbol/lucky_vegas_rapidhit.ccbi",
+      "bgName": "",
+      "imgName": "lucky_vegas_rapidhit.png",
+      "name": "Jackpot",
+      "payTables": {
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 6,
+      "symbolValue": 6
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_girl.png",
+      "name": "Girl",
+      "payTables": {
+        "3": 100,
+        "4": 500,
+        "5": 2500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_red7.png",
+      "name": "Red7",
+      "payTables": {
+        "3": 80,
+        "4": 250,
+        "5": 1000
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_blue7.png",
+      "name": "Blue7",
+      "payTables": {
+        "3": 60,
+        "4": 200,
+        "5": 600
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1001
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_perple7.png",
+      "name": "Purple7",
+      "payTables": {
+        "3": 40,
+        "4": 120,
+        "5": 400
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1001
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_ring.png",
+      "name": "Ring",
+      "payTables": {
+        "3": 30,
+        "4": 100,
+        "5": 300
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_bag.png",
+      "name": "Bag",
+      "payTables": {
+        "3": 20,
+        "4": 60,
+        "5": 200
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_wine.png",
+      "name": "Wine",
+      "payTables": {
+        "3": 10,
+        "4": 30,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006
+    },
+    "1007": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_shoes.png",
+      "name": "Shoes",
+      "payTables": {
+        "3": 5,
+        "4": 15,
+        "5": 50
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1007,
+      "symbolValue": 1007
+    },
+    "1008": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_3bar.png",
+      "name": "3bar",
+      "payTables": {
+        "3": 15,
+        "4": 50,
+        "5": 150
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1008,
+      "symbolValue": 1008
+    },
+    "1009": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_2bar.png",
+      "name": "2bar",
+      "payTables": {
+        "3": 10,
+        "4": 30,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1009,
+      "symbolValue": 1008
+    },
+    "1010": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_bar.png",
+      "name": "bar",
+      "payTables": {
+        "3": 8,
+        "4": 25,
+        "5": 75
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1010,
+      "symbolValue": 1008
+    },
+    "1500": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_any7.png",
+      "name": "Any7",
+      "payTables": {
+        "3": 25,
+        "4": 75,
+        "5": 250
+      },
+      "reelMask": 0,
+      "reelMaskFree": 0,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1500,
+      "symbolValue": 1500
+    },
+    "1501": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "lucky_vegas_anybar.png",
+      "name": "bar",
+      "payTables": {
+        "3": 5,
+        "4": 15,
+        "5": 50
+      },
+      "reelMask": 0,
+      "reelMaskFree": 0,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1501,
+      "symbolValue": 1501
+    }
+  },
+  "client": {
+    "symbolMoveMode": 1796,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "lucky_vegas_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "lucky_vegas/reels/bg/lucky_vegas_background.jpg",
+    "reelName": "",
+    "slotSceneType": 3010,
+    "displayName": "Lucky Vegas",
+    "freeSpinBgMusic": "",
+    "name": "Lucky Vegas",
+    "resRootDir": "lucky_vegas",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-2"
+    ],
+    "symbolBatchName": "lucky_vegas/reels/symbol/lucky_vegas_symbol_batch.png",
+    "symbolBatchPlistPath": "lucky_vegas/reels/symbol/lucky_vegas_symbol_batch.plist",
+    "spinUiTitleName": "casino/casino_ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui_2",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": 3
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": 3
+      },
+      "3": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": 30
+      }
+    },
+    "functionType": 2
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 310,
+      "extraPayTable": {
+        "1001": 1500,
+        "1002": 1500,
+        "1003": 1500,
+        "1008": 1501,
+        "1009": 1501,
+        "1010": 1501
+      },
+      "jackpotCountLevelMap": {
+        "5": 0,
+        "6": 1,
+        "7": 2,
+        "8": 3,
+        "9": 4
+      },
+      "jackpotPayTables": {
+        "3": 25,
+        "4": 125
+      }
+    }
+  }
+}

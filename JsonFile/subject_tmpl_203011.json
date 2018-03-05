@@ -1,0 +1,910 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 0,
+  "lines": [
+    [
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          204,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 3,
+      "slotRows": 3,
+      "slotsWidth": 213,
+      "spinRegion": [
+        203,
+        179,
+        665,
+        290
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 203011
+    }
+  ],
+  "reelCol": 3,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 203011,
+  "symbolOpType": 1,
+  "symbols": {
+    "3": {
+      "animEffect": 0,
+      "animName": "",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3,
+      "symbolW": 1
+    },
+    "1": {
+      "animEffect": 0,
+      "animName": "wild_wolves/reels/symbol/wild_wolves_wild.ccbi",
+      "bgName": "",
+      "imgName": "wild_wolves_wild.png",
+      "name": "wild",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "7": {
+      "animEffect": 0,
+      "animName": "wild_wolves/reels/symbol/wild_wolves_jackpot.ccbi",
+      "bgName": "",
+      "imgName": "wild_wolves_jackpot.png",
+      "name": "vip jackpot",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 7,
+      "symbolValue": 7,
+      "symbolW": 1
+    },
+    "1101": {
+      "animEffect": 0,
+      "animName": "wild_wolves/reels/symbol/wild_wolves_4X.ccbi",
+      "bgName": "",
+      "imgName": "wild_wolves_4x.png",
+      "name": "wild 4x",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1101,
+      "symbolValue": 1101,
+      "symbolW": 1
+    },
+    "1102": {
+      "animEffect": 0,
+      "animName": "wild_wolves/reels/symbol/wild_wolves_3X.ccbi",
+      "bgName": "",
+      "imgName": "wild_wolves_3x.png",
+      "name": "wild 3x",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1102,
+      "symbolValue": 1102,
+      "symbolW": 1
+    },
+    "1103": {
+      "animEffect": 0,
+      "animName": "wild_wolves/reels/symbol/wild_wolves_2X.ccbi",
+      "bgName": "",
+      "imgName": "wild_wolves_2x.png",
+      "name": "wild 2x",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1103,
+      "symbolValue": 1103,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_blue7.png",
+      "name": "blue 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_blue7zhuazi.png",
+      "name": "blue 7 with gift",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_red7.png",
+      "name": "red 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_red7zhuazi.png",
+      "name": "red 7 with gift",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_huang7.png",
+      "name": "yellow 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_huang7zhuazi.png",
+      "name": "yellow 7 with gift",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_3bar.png",
+      "name": "3bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006,
+      "symbolW": 1
+    },
+    "1007": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_3barzhuazi.png",
+      "name": "3bar with gift",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1007,
+      "symbolValue": 1007,
+      "symbolW": 1
+    },
+    "1008": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_2bar.png",
+      "name": "2bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1008,
+      "symbolValue": 1008,
+      "symbolW": 1
+    },
+    "1009": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_2barzhuazi.png",
+      "name": "2bar with gift",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1009,
+      "symbolValue": 1009,
+      "symbolW": 1
+    },
+    "1010": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_bar.png",
+      "name": "bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1010,
+      "symbolValue": 1010,
+      "symbolW": 1
+    },
+    "1011": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_barzhuazi.png",
+      "name": "bar with gift",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1011,
+      "symbolValue": 1011,
+      "symbolW": 1
+    },
+    "1012": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_moon.png",
+      "name": "moon",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1012,
+      "symbolValue": 1012,
+      "symbolW": 1
+    },
+    "1013": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wild_wolves_moonzhuazi.png",
+      "name": "moon with gift",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1013,
+      "symbolValue": 1013,
+      "symbolW": 1
+    }
+  },
+  "specialPayTables": [
+    {
+      "index": 0,
+      "type": 0,
+      "symbols": [
+        [
+          1103
+        ],
+        [
+          1102
+        ],
+        [
+          1101
+        ]
+      ],
+      "pays": [
+        5000
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          1102
+        ],
+        [
+          1101
+        ]
+      ],
+      "pays": [
+        2500
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "symbols": [
+        [
+          1103
+        ],
+        [
+          1
+        ],
+        [
+          1101
+        ]
+      ],
+      "pays": [
+        2000
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "symbols": [
+        [
+          1103
+        ],
+        [
+          1102
+        ],
+        [
+          1
+        ]
+      ],
+      "pays": [
+        1800
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1101
+        ]
+      ],
+      "pays": [
+        1600
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          1102
+        ],
+        [
+          1
+        ]
+      ],
+      "pays": [
+        1400
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "symbols": [
+        [
+          1103
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "pays": [
+        1200
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "pays": [
+        1000
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "symbols": [
+        [
+          1000,
+          1001
+        ],
+        [
+          1000,
+          1001
+        ],
+        [
+          1000,
+          1001
+        ]
+      ],
+      "pays": [
+        50
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "symbols": [
+        [
+          1002,
+          1003
+        ],
+        [
+          1002,
+          1003
+        ],
+        [
+          1002,
+          1003
+        ]
+      ],
+      "pays": [
+        40
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "symbols": [
+        [
+          1004,
+          1005
+        ],
+        [
+          1004,
+          1005
+        ],
+        [
+          1004,
+          1005
+        ]
+      ],
+      "pays": [
+        30
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "symbols": [
+        [
+          1006,
+          1007
+        ],
+        [
+          1006,
+          1007
+        ],
+        [
+          1006,
+          1007
+        ]
+      ],
+      "pays": [
+        25
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "symbols": [
+        [
+          1008,
+          1009
+        ],
+        [
+          1008,
+          1009
+        ],
+        [
+          1008,
+          1009
+        ]
+      ],
+      "pays": [
+        20
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "symbols": [
+        [
+          1010,
+          1011
+        ],
+        [
+          1010,
+          1011
+        ],
+        [
+          1010,
+          1011
+        ]
+      ],
+      "pays": [
+        10
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "symbols": [
+        [
+          1000,
+          1001,
+          1002,
+          1003,
+          1004,
+          1005
+        ],
+        [
+          1000,
+          1001,
+          1002,
+          1003,
+          1004,
+          1005
+        ],
+        [
+          1000,
+          1001,
+          1002,
+          1003,
+          1004,
+          1005
+        ]
+      ],
+      "pays": [
+        10
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "symbols": [
+        [
+          1006,
+          1007,
+          1008,
+          1009,
+          1010,
+          1011
+        ],
+        [
+          1006,
+          1007,
+          1008,
+          1009,
+          1010,
+          1011
+        ],
+        [
+          1006,
+          1007,
+          1008,
+          1009,
+          1010,
+          1011
+        ]
+      ],
+      "pays": [
+        5
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "symbols": [
+        [
+          1012,
+          1013
+        ],
+        [
+          1012,
+          1013
+        ],
+        [
+          1012,
+          1013
+        ]
+      ],
+      "pays": [
+        5
+      ]
+    },
+    {
+      "index": 17,
+      "type": 1,
+      "symbols": [
+        [
+          1012,
+          1013
+        ],
+        [
+          1,
+          1101,
+          1102,
+          1103
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        3
+      ]
+    },
+    {
+      "index": 18,
+      "type": 1,
+      "symbols": [
+        [
+          1012,
+          1013
+        ],
+        [
+          1012,
+          1013
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        3
+      ]
+    },
+    {
+      "index": 19,
+      "type": 1,
+      "symbols": [
+        [
+          1012,
+          1013
+        ],
+        [
+          -2
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        1
+      ]
+    }
+  ],
+  "client": {
+    "symbolMoveMode": 1796,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "wild_wolves_paytable_vip.png",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "wild_wolves_paytable2.png",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "wild_wolves/reels/bg/wild_wolves_background.jpg",
+    "reelName": "",
+    "slotSceneType": 203011,
+    "displayName": "Wild Wolves",
+    "freeSpinBgMusic": "",
+    "name": "Wild Wolves",
+    "resRootDir": "wild_wolves",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-1"
+    ],
+    "symbolBatchName": "wild_wolves/reels/symbol/wild_wolves_symbol_batch.png",
+    "symbolBatchPlistPath": "wild_wolves/reels/symbol/wild_wolves_symbol_batch.plist",
+    "spinUiTitleName": "casino/ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui_new",
+    "prizePoolType": 4,
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "3": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 20
+      }
+    },
+    "functionType": 2
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 142,
+      "extraPays": [
+        {
+          "symbolValue": 1101,
+          "specialPayTables": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "multi": [1, 4, 16]
+        },
+        {
+          "symbolValue": 1102,
+          "specialPayTables": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "multi": [1, 3, 9]
+        },
+        {
+          "symbolValue": 1103,
+          "specialPayTables": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "multi": [1, 2, 4]
+        }
+      ],
+      "giftSymbolIds": [1001, 1003, 1005, 1007, 1009, 1011, 1013],
+      "bonusTriggerCount": 3,
+      "bonusConfig": {
+        "spinCountList": [1, 2, 3, 4],
+        "spinCountProb": [20, 10, 8, 5],
+        "needBonusCount": 3,
+        "winTable": [500, 8, 18, 50, 10, 15, 300, 5, 12, 40, 10, 5, 100, 8, 12, 30, 18, 5, 200, 20, 15, 25],
+        "winTableProbList": [
+          [1, 400, 150, 8, 500, 800, 2, 100, 600, 10, 500, 100, 5, 100, 600, 50, 150, 100, 3, 200, 200, 100],
+          [1, 600, 50, 8, 250, 100, 2, 100, 150, 10, 250, 100, 5, 200, 150, 20, 50, 100, 3, 50, 100, 30],
+          [1, 600, 50, 8, 250, 100, 2, 100, 150, 10, 250, 100, 5, 200, 150, 20, 50, 100, 3, 50, 100, 30],
+          [1, 600, 50, 8, 250, 100, 2, 500, 150, 10, 250, 300, 5, 200, 150, 20, 50, 200, 3, 50, 100, 30]
+        ]
+      }
+    }
+  }
+}

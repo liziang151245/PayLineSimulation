@@ -1,0 +1,785 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          204,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          0,
+          102,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          51,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          102,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          102,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          0,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          51,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          153,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          51,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          0,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          1,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          1,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          102,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          102,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          102,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          0,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 3,
+      "slotsWidth": 124,
+      "spinRegion": [
+        223,
+        199,
+        688,
+        229
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 146
+    }
+  ],
+  "reelCol": 5,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 46,
+  "symbolOpType": 1,
+  "symbols": {
+    "3": {
+      "animEffect": 0,
+      "animName": "",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3,
+      "symbolW": 1
+    },
+    "0": {
+      "animEffect": 0,
+      "animName": "easter_eggs/reels/symbol/easter_eggs_egg.ccbi",
+      "bgName": "",
+      "imgName": "easter_eggs_egg.png",
+      "name": "Easter Egg",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 0,
+      "symbolValue": 0,
+      "symbolW": 1
+    },
+    "1": {
+      "animEffect": 0,
+      "animName": "easter_eggs/reels/symbol/easter_eggs_2xwild.ccbi",
+      "bgName": "",
+      "imgName": "easter_eggs_2xwild.png",
+      "name": "2x Wild",
+      "payTables": {},
+      "reelMask": 2,
+      "reelMaskFree": 2,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1,
+      "multiple": 2
+    },
+    "1101": {
+      "animEffect": 0,
+      "animName": "easter_eggs/reels/symbol/easter_eggs_5xwild.ccbi",
+      "bgName": "",
+      "imgName": "easter_eggs_5xwild.png",
+      "name": "5x Wild",
+      "payTables": {},
+      "reelMask": 8,
+      "reelMaskFree": 8,
+      "symbolH": 1,
+      "symbolId": 1101,
+      "symbolValue": 1101,
+      "symbolW": 1,
+      "multiple": 2
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "easter_eggs_yellow7.png",
+      "name": "Gold 7",
+      "payTables": {
+        "2": 5,
+        "3": 17,
+        "4": 51,
+        "5": 170
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "easter_eggs_grey7.png",
+      "name": "Silver 7",
+      "payTables": {
+        "2": 5,
+        "3": 15,
+        "4": 45,
+        "5": 150
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "easter_eggs_bar3.png",
+      "name": "3 Bar",
+      "payTables": {
+        "3": 10,
+        "4": 30,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "easter_eggs_bar2.png",
+      "name": "2 Bar",
+      "payTables": {
+        "3": 9,
+        "4": 27,
+        "5": 90
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "easter_eggs_bar.png",
+      "name": "Bar",
+      "payTables": {
+        "3": 7,
+        "4": 21,
+        "5": 70
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    }
+  },
+  "client": {
+    "symbolMoveMode": 1796,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "easter_eggs_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "easter_eggs_paytable2.png",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "bgName": "easter_eggs/reels/bg/easter_eggs_background.jpg",
+    "reelName": "",
+    "slotSceneType": 146,
+    "displayName": "Easter Eggs",
+    "freeSpinBgMusic": "",
+    "name": "Easter Eggs",
+    "resRootDir": "easter_eggs",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-2"
+    ],
+    "symbolBatchName": "easter_eggs/reels/symbol/easter_eggs_symbol_batch.png",
+    "symbolBatchPlistPath": "easter_eggs/reels/symbol/easter_eggs_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": "3"
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": "3"
+      },
+      "3": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 20
+      }
+    },
+    "functionType": 2
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 146,
+      "extraPayTable" : {
+        "1000" : 1500,
+        "1001" : 1500,
+        "1002" : 1501,
+        "1003" : 1501,
+        "1004" : 1501
+      },
+      "bonusRewards" : {
+        "normal" : {
+          "5": {
+            "freeSpin": 5,
+            "pay": 500
+          },
+          "6": {
+            "freeSpin": 5,
+            "pay": 750
+          },
+          "7": {
+            "freeSpin": 5,
+            "pay": 1000
+          },
+          "8": {
+            "freeSpin": 8,
+            "pay": 1400
+          },
+          "9": {
+            "freeSpin": 8,
+            "pay": 2000
+          },
+          "10":{
+            "freeSpin": 10
+          }
+        },
+        "freeSpinExtra": {
+          "1": {
+            "pay": 50
+          },
+          "2": {
+            "pay": 100
+          },
+          "3": {
+            "pay": 200
+          },
+          "4": {
+            "pay": 360
+          }
+        }
+      },
+      "specialPanelProb": [100, 1, 1],
+      "drumModeReelLength": 25,
+      "drumModeReelIndexes": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "drumModeReelProb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        100
+      ],
+      "intervenedColumns": [1, 3],
+      "intervenedSymbolIds": [1, 1101],
+      "fakeRespinEggCount": 4,
+      "fakeRespinLegalSymbolIds": [1, 1000],
+      "fakeRespinIllegalSymbolIds": [1101, 1000, 1001]
+    }
+  }
+}
+

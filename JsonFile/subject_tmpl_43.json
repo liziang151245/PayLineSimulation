@@ -1,0 +1,421 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 0,
+  "lines": [
+    [
+      {
+        "color": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "rows": [
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 3,
+      "slotRows": 3,
+      "slotsWidth": 226,
+      "spinRegion": [
+        205,
+        203,
+        722,
+        354
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 10013
+    }
+  ],
+  "reelCol": 3,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 43,
+  "symbolOpType": 1,
+  "symbols": {
+    "3": {
+      "animEffect": 0,
+      "animName": "RubyWild",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3,
+      "symbolW": 1
+    },
+    "1": {
+      "animEffect": 0,
+      "animName": "ruby_wild/reels/symbol/ruby_wild_wild.ccbi",
+      "bgName": "",
+      "imgName": "ruby_wild_wild.png",
+      "name": "Wild 4X",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 0,
+      "animName": "ruby_wild/reels/symbol/ruby_wild_r7.ccbi",
+      "bgName": "",
+      "imgName": "ruby_wild_r7.png",
+      "name": "Ruby7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 0,
+      "animName": "ruby_wild/reels/symbol/ruby_wild_w7.ccbi",
+      "bgName": "",
+      "imgName": "ruby_wild_w7.png",
+      "name": "7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 0,
+      "animName": "ruby_wild/reels/symbol/ruby_wild_3bar.ccbi",
+      "bgName": "",
+      "imgName": "ruby_wild_3bar.png",
+      "name": "3 Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 0,
+      "animName": "ruby_wild/reels/symbol/ruby_wild_2bar.ccbi",
+      "bgName": "",
+      "imgName": "ruby_wild_2bar.png",
+      "name": "2 Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 0,
+      "animName": "ruby_wild/reels/symbol/ruby_wild_bar.ccbi",
+      "bgName": "",
+      "imgName": "ruby_wild_bar.png",
+      "name": "Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    }
+  },
+  "specialPayTables": [
+    {
+      "index": 0,
+      "type": 0,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "pays": [
+        1000
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "symbols": [
+        [
+          1000
+        ],
+        [
+          1000
+        ],
+        [
+          1000
+        ]
+      ],
+      "pays": [
+        60
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "symbols": [
+        [
+          1001
+        ],
+        [
+          1001
+        ],
+        [
+          1001
+        ]
+      ],
+      "pays": [
+        40
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "symbols": [
+        [
+          1000,
+          1001
+        ],
+        [
+          1000,
+          1001
+        ],
+        [
+          1000,
+          1001
+        ]
+      ],
+      "pays": [
+        20
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "symbols": [
+        [
+          1002
+        ],
+        [
+          1002
+        ],
+        [
+          1002
+        ]
+      ],
+      "pays": [
+        20
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "symbols": [
+        [
+          1003
+        ],
+        [
+          1003
+        ],
+        [
+          1003
+        ]
+      ],
+      "pays": [
+        15
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "symbols": [
+        [
+          1004
+        ],
+        [
+          1004
+        ],
+        [
+          1004
+        ]
+      ],
+      "pays": [
+        10
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "symbols": [
+        [
+          1002,
+          1003,
+          1004
+        ],
+        [
+          1002,
+          1003,
+          1004
+        ],
+        [
+          1002,
+          1003,
+          1004
+        ]
+      ],
+      "pays": [
+        3
+      ]
+    },
+    {
+      "index": 8,
+      "type": 1,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        20
+      ]
+    },
+    {
+      "index": 9,
+      "type": 1,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          -2
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        4
+      ]
+    }
+  ],
+  "client": {
+    "symbolStrategyId": 9,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "ruby_wild_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "ruby_wild/reels/bg/ruby_wild_background.jpg",
+    "reelName": "",
+    "slotSceneType": 10013,
+    "displayName": "Ruby Wild",
+    "freeSpinBgMusic": "",
+    "name": "Ruby Wild",
+    "resRootDir": "ruby_wild",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-1",
+      "slots/spin_bg/spin-bg-2",
+      "slots/spin_bg/spin-bg-3"
+    ],
+    "symbolBatchName": "ruby_wild/reels/symbol/ruby_wild_symbol_batch.png",
+    "symbolBatchPlistPath": "ruby_wild/reels/symbol/ruby_wild_symbol_batch.plist",
+    "smallWinPath": "ruby_wild/reels/symbol/ruby_wild_effect_win.ccbi",
+    "bigWinPath": "ruby_wild/reels/symbol/ruby_wild_effect_bigwin.ccbi",
+    "winMusic": "",
+    "spinUiTitleName": "casino/casino_ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "3": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 30
+      }
+    },
+    "functionType": 2
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 1013,
+      "extraPays": [
+        {
+          "symbolValue": 1,
+          "specialPayTables": [1,2,3,4,5,6,7],
+          "multi": [1, 4, 16]
+        }
+      ]
+    }
+  }
+}

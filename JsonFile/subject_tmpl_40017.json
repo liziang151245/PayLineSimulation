@@ -1,0 +1,1121 @@
+{
+  "subjectTmplId": 40017,
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "normalSpinPanels": 1,
+  "reelCol": 5,
+  "reelRow": 4,
+  "symbolOpType": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          51,
+          255
+        ],
+        "rows": [
+          3,
+          3,
+          2,
+          3,
+          3
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          51,
+          255
+        ],
+        "rows": [
+          3,
+          2,
+          2,
+          2,
+          3
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          51,
+          255
+        ],
+        "rows": [
+          3,
+          2,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          204,
+          255
+        ],
+        "rows": [
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          3,
+          3,
+          3,
+          2,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          3,
+          2,
+          2,
+          3
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          2,
+          2,
+          3,
+          3
+        ]
+      },
+      {
+        "color": [
+          255,
+          0,
+          102,
+          255
+        ],
+        "rows": [
+          3,
+          3,
+          1,
+          3,
+          3
+        ]
+      },
+      {
+        "color": [
+          255,
+          51,
+          102,
+          255
+        ],
+        "rows": [
+          3,
+          3,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          102,
+          255
+        ],
+        "rows": [
+          3,
+          2,
+          1,
+          3,
+          3
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          3,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          3,
+          3,
+          3,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          102,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          3,
+          2,
+          3,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          3,
+          2
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          153,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          3,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          51,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          3,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          0,
+          102,
+          255
+        ],
+        "rows": [
+          2,
+          3,
+          1,
+          3,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          51,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          102,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          102,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          153,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          102,
+          153,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          153,
+          0,
+          51,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          153,
+          51,
+          102,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          153,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          102,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          0,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          153,
+          204,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          51,
+          204,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          204,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          0,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          0,
+          0
+        ]
+      }
+    ]
+  ],
+  "symbols": {
+    "1": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "rapid_hit_wild.png",
+      "name": "WILD",
+      "payTables": {
+        "3": 200,
+        "4": 1000,
+        "5": 2500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "2": {
+      "animEffect": 0,
+      "animName": "rapid_hit/reels/symbol/rapid_hit_scatter.ccbi",
+      "bgName": "",
+      "imgName": "rapid_hit_scatter.png",
+      "name": "Scatter",
+      "payTables": {
+        "3": 10
+      },
+      "reelMask": 14,
+      "reelMaskFree": 14,
+      "symbolH": 1,
+      "symbolId": 2,
+      "symbolValue": 2,
+      "symbolW": 1
+    },
+    "6": {
+      "animEffect": 0,
+      "animName": "rapid_hit/reels/symbol/rapid_hit_rapidhit.ccbi",
+      "bgName": "",
+      "imgName": "rapid_hit_rapidhit.png",
+      "name": "Rapid Hit",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 6,
+      "symbolValue": 6,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "rapid_hit_fire_red7.png",
+      "name": "Fire Red 7",
+      "payTables": {
+        "3": 100,
+        "4": 500,
+        "5": 1000
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "rapid_hit_fire_yellow7.png",
+      "name": "Fire Yellow 7",
+      "payTables": {
+        "3": 50,
+        "4": 200,
+        "5": 500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "rapid_hit_red7.png",
+      "name": "Red 7",
+      "payTables": {
+        "3": 25,
+        "4": 100,
+        "5": 200
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "rapid_hit_bell.png",
+      "name": "Bell",
+      "payTables": {
+        "3": 10,
+        "4": 50,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "rapid_hit_dollar.png",
+      "name": "Yellow Cab",
+      "payTables": {
+        "3": 10,
+        "4": 50,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "rapid_hit_cherry.png",
+      "name": "Cherry",
+      "payTables": {
+        "3": 5,
+        "4": 25,
+        "5": 50
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "rapid_hit_3bar.png",
+      "name": "Three Bar",
+      "payTables": {
+        "3": 5,
+        "4": 10,
+        "5": 25
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006,
+      "symbolW": 1
+    },
+    "1007": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "rapid_hit_2bar.png",
+      "name": "Two Bar",
+      "payTables": {
+        "3": 5,
+        "4": 10,
+        "5": 25
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1007,
+      "symbolValue": 1007,
+      "symbolW": 1
+    },
+    "1008": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "rapid_hit_bar.png",
+      "name": "Bar",
+      "payTables": {
+        "3": 2,
+        "4": 5,
+        "5": 25
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1008,
+      "symbolValue": 1008,
+      "symbolW": 1
+    },
+    "1201": {
+      "animEffect": 0,
+      "animName": "rapid_hit/reels/symbol/rapid_hit_rapidhit_3x.ccbi",
+      "bgName": "",
+      "imgName": "rapid_hit_rapidhit_3x.png",
+      "name": "Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1201,
+      "symbolValue": 1201,
+      "symbolW": 1
+    },
+    "1202": {
+      "animEffect": 0,
+      "animName": "rapid_hit/reels/symbol/rapid_hit_rapidhit_2x.ccbi",
+      "bgName": "",
+      "imgName": "rapid_hit_rapidhit_2x.png",
+      "name": "Bar",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1202,
+      "symbolValue": 1202,
+      "symbolW": 1
+    }
+  },
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 4,
+      "slotsWidth": 126,
+      "spinRegion": [
+        232,
+        162,
+        661,
+        290
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 40113
+    }
+  ],
+  "specialPayTables": {},
+  "client": {
+    "symbolMoveMode": 0,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "rapid_hit_paytable_classic.jpg",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "stackSymbols": null,
+    "bgName": "rapid_hit/reels/bg/rapid_hit_background.jpg",
+    "reelName": "",
+    "slotSceneType": 40113,
+    "displayName": "Rapid Hit",
+    "freeSpinBgMusic": "",
+    "name": "Rapid Hit",
+    "resRootDir": "rapid_hit",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-1"
+    ],
+    "symbolBatchName": "rapid_hit/reels/symbol/rapid_hit_symbol_batch.png",
+    "symbolBatchPlistPath": "rapid_hit/reels/symbol/rapid_hit_symbol_batch.plist",
+    "jackpotSymbolValue": 1000,
+    "spinUiTitleName": "casino/casino_ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui_2",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "3": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 30
+      }
+    },
+    "functionType": 2,
+    "prizePoolType":3
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 115,
+      "totalBetLevelMap": {
+        "5000": 0,
+        "25000": 0,
+        "50000": 0,
+        "100000": 1,
+        "250000":2,
+        "500000": 2,
+        "1000000":2,
+        "5000000": 2,
+        "10000000": 2
+      },
+      "rapidHitSymbolRate": {
+        "1201" : 3,
+        "1202" : 2
+      },
+      "rapidHitPayTables": {
+        "3": 50,
+        "4": 250,
+        "5": 500,
+        "6": 2500,
+        "7": 5000,
+        "8": 32500,
+        "9": 100000
+      }
+    }
+  }
+}
+

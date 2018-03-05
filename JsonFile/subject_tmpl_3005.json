@@ -1,0 +1,426 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 0,
+  "lines": [
+    [
+      {
+        "color": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "rows": [
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 3,
+      "slotRows": 3,
+      "slotsWidth": 214,
+      "spinRegion": [
+        215,
+        203,
+        705,
+        348
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 3005
+    }
+  ],
+  "reelCol": 3,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 3005,
+  "symbolOpType": 1,
+  "symbols": {
+    "3": {
+      "animEffect": 0,
+      "animName": "",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3,
+      "symbolW": 1
+    },
+    "1": {
+      "animEffect": 0,
+      "animName": "777_fever/reels/symbol/777_fever_fever.ccbi",
+      "bgName": "",
+      "imgName": "777_fever_fever.png",
+      "name": "Wild 7X",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "777_fever_r7.png",
+      "name": "Red 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "777_fever_p7.png",
+      "name": "Purple 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "777_fever_b7.png",
+      "name": "Blue 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "777_fever_g7.png",
+      "name": "Green 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "777_fever_w7.png",
+      "name": "Silvery White 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    }
+  },
+  "specialPayTables": [
+    {
+      "index": 0,
+      "type": 0,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "pays": [
+        777
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "symbols": [
+        [
+          1000
+        ],
+        [
+          1000
+        ],
+        [
+          1000
+        ]
+      ],
+      "pays": [
+        77
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "symbols": [
+        [
+          1001
+        ],
+        [
+          1001
+        ],
+        [
+          1001
+        ]
+      ],
+      "pays": [
+        21
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "symbols": [
+        [
+          1002
+        ],
+        [
+          1002
+        ],
+        [
+          1002
+        ]
+      ],
+      "pays": [
+        14
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "symbols": [
+        [
+          1003
+        ],
+        [
+          1003
+        ],
+        [
+          1003
+        ]
+      ],
+      "pays": [
+        11
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "symbols": [
+        [
+          1004
+        ],
+        [
+          1004
+        ],
+        [
+          1004
+        ]
+      ],
+      "pays": [
+        7
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "symbols": [
+        [
+          1000,
+          1001
+        ],
+        [
+          1000,
+          1001
+        ],
+        [
+          1000,
+          1001
+        ]
+      ],
+      "pays": [
+        7
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "symbols": [
+        [
+          1002,
+          1003
+        ],
+        [
+          1002,
+          1003
+        ],
+        [
+          1002,
+          1003
+        ]
+      ],
+      "pays": [
+        4
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "symbols": [
+        [
+          1000,
+          1001,
+          1002,
+          1003,
+          1004
+        ],
+        [
+          1000,
+          1001,
+          1002,
+          1003,
+          1004
+        ],
+        [
+          1000,
+          1001,
+          1002,
+          1003,
+          1004
+        ]
+      ],
+      "pays": [
+        1.5
+      ]
+    },
+    {
+      "index": 9,
+      "type": 1,
+      "symbols": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        1
+      ]
+    }
+  ],
+  "client": {
+    "symbolMoveMode": 1796,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "777_fever_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "777_fever/reels/bg/777_fever_background.jpg",
+    "reelName": "",
+    "slotSceneType": 3005,
+    "displayName": "777 Fever",
+    "freeSpinBgMusic": "",
+    "name": "777 Fever",
+    "resRootDir": "777_fever",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-3"
+    ],
+    "symbolBatchName": "777_fever/reels/symbol/777_fever_symbol_batch.png",
+    "symbolBatchPlistPath": "777_fever/reels/symbol/777_fever_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/casino_ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": "3"
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": "3"
+      },
+      "3": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 30
+      }
+    },
+    "functionType": 2
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 1,
+      "extraPays": [
+        {
+          "symbolValue": 1,
+          "specialPayTables": [1, 2, 3, 4, 5, 6, 7, 8],
+          "multi": [1, 7, 49]
+        }
+      ]
+    }
+  }
+}

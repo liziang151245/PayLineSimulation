@@ -1,0 +1,649 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          2,
+          2,
+          0
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 3,
+      "slotsWidth": 136,
+      "spinRegion": [
+        207,
+        184,
+        721,
+        301
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 145
+    }
+  ],
+  "reelCol": 5,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 45,
+  "symbolOpType": 1,
+  "symbols": {
+    "3": {
+      "animEffect": 0,
+      "animName": "",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3,
+      "symbolW": 1
+    },
+    "0": {
+      "animEffect": 0,
+      "animName": "touchdown/reels/symbol/touchdown_bonus_cheerleader.ccbi",
+      "bgName": "",
+      "imgName": "touchdown_bonus_cheerleader.png",
+      "name": "bonus",
+      "payTables": null,
+      "reelMask": 14,
+      "reelMaskFree": 14,
+      "symbolH": 1,
+      "symbolId": 0,
+      "symbolValue": 0,
+      "symbolW": 1
+    },
+    "1": {
+      "animEffect": 0,
+      "animName": "touchdown/reels/symbol/touchdown_wild_football.ccbi",
+      "bgName": "",
+      "imgName": "touchdown_wild_football.png",
+      "name": "wild",
+      "payTables": {
+        "3": 200,
+        "4": 1000,
+        "5": 2500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "6": {
+      "animEffect": 0,
+      "animName": "touchdown/reels/symbol/touchdown_jackpot_touchdown.ccbi",
+      "bgName": "",
+      "imgName": "touchdown_jackpot_touchdown.png",
+      "name": "touchdown",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 6,
+      "symbolValue": 6,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "touchdown_777.png",
+      "name": "777",
+      "payTables": {
+        "3": 100,
+        "4": 500,
+        "5": 1000
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "touchdown_77.png",
+      "name": "77",
+      "payTables": {
+        "3": 50,
+        "4": 200,
+        "5": 500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "touchdown_7.png",
+      "name": "7",
+      "payTables": {
+        "3": 25,
+        "4": 100,
+        "5": 200
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "touchdown_bar.png",
+      "name": "bar",
+      "payTables": {
+        "3": 10,
+        "4": 50,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "touchdown_5bar.png",
+      "name": "5 and bar",
+      "payTables": {
+        "3": 5,
+        "4": 25,
+        "5": 50
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "touchdown_whistle.png",
+      "name": "whistle",
+      "payTables": {
+        "3": 5,
+        "4": 10,
+        "5": 25
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "touchdown_toukui.png",
+      "name": "helmat",
+      "payTables": {
+        "3": 5,
+        "4": 10,
+        "5": 25
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006,
+      "symbolW": 1
+    }
+  },
+  "client": {
+    "symbolStragegyId": 9,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "touchdown_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "touchdown_paytable2.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "touchdown_paytable3.png",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "touchdown/reels/bg/touchdown_background.jpg",
+    "reelName": "touchdown/reels/bg/touchdown_light.png",
+    "slotSceneType": 145,
+    "displayName": "Touchdown",
+    "freeSpinBgMusic": "",
+    "name": "Touchdown",
+    "resRootDir": "touchdown",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-1",
+      "slots/spin_bg/spin-bg-2",
+      "slots/spin_bg/spin-bg-3"
+    ],
+    "symbolBatchName": "touchdown/reels/symbol/touchdown_symbol_batch.png",
+    "symbolBatchPlistPath": "touchdown/reels/symbol/touchdown_symbol_batch.plist",
+    "spinUiTitleName": "casino/ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "3": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 20
+      }
+    },
+    "functionType": 2
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 145,
+      "extraPayTable": {
+        "1000": 1500,
+        "1001": 1500,
+        "1002": 1500,
+        "1003": 1501,
+        "1004": 1501
+      },
+      "bonusTriggerCount": 3,
+      "jackpotPayTable": {
+        "3": 1,
+        "4": 3,
+        "5": 10,
+        "6": 50,
+        "7": 100,
+        "8": 1000,
+        "9": 2500
+      },
+      "freeSpinProb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "freeSpinCountList": [
+        20,
+        15,
+        11,
+        10,
+        7,
+        5
+      ],
+      "freeSpinMultipleList": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  }
+}

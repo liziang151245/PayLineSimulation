@@ -1,0 +1,616 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 2,
+  "lines": [
+    [
+      {
+        "color": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 2,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 3,
+      "slotRows": 3,
+      "slotsWidth": 154,
+      "spinRegion": [
+        230,
+        168,
+        505,
+        280
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 107
+    },
+    {
+      "colShift": 3,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 1,
+      "rowShift": 0,
+      "slotCols": 1,
+      "slotRows": 3,
+      "slotsWidth": 153,
+      "spinRegion": [
+        765,
+        196,
+        153,
+        222
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 107
+    }
+  ],
+  "reelCol": 4,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 11,
+  "symbolOpType": 1,
+  "symbols": {
+    "3": {
+      "animEffect": 0,
+      "animName": "",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3,
+      "symbolW": 1
+    },
+    "6": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "classic_fever_gold777.png",
+      "name": "Jackpot",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 6,
+      "symbolValue": 6,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "classic_fever_red777.png",
+      "name": "Red 7",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "classic_fever_7.png",
+      "name": "Seven",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "classic_fever_3bar.png",
+      "name": "Three Bar",
+      "payTables": null,
+      "reelMask": 7,
+      "reelMaskFree": 7,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "classic_fever_2bar.png",
+      "name": "Two Bar",
+      "payTables": null,
+      "reelMask": 7,
+      "reelMaskFree": 7,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "classic_fever_bar.png",
+      "name": "One Bar",
+      "payTables": null,
+      "reelMask": 7,
+      "reelMaskFree": 7,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "classic_fever_cherry.png",
+      "name": "Cherry",
+      "payTables": null,
+      "reelMask": 7,
+      "reelMaskFree": 7,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "classic_fever_x7.png",
+      "name": "Multiply 7",
+      "payTables": null,
+      "reelMask": 8,
+      "reelMaskFree": 8,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006,
+      "symbolW": 1
+    },
+    "1007": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "classic_fever_x5.png",
+      "name": "Multiply 5",
+      "payTables": null,
+      "reelMask": 8,
+      "reelMaskFree": 8,
+      "symbolH": 1,
+      "symbolId": 1007,
+      "symbolValue": 1007,
+      "symbolW": 1
+    },
+    "1008": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "classic_fever_x3.png",
+      "name": "Multiply 3",
+      "payTables": null,
+      "reelMask": 8,
+      "reelMaskFree": 8,
+      "symbolH": 1,
+      "symbolId": 1008,
+      "symbolValue": 1008,
+      "symbolW": 1
+    },
+    "1009": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "classic_fever_x2.png",
+      "name": "Multiply 2",
+      "payTables": null,
+      "reelMask": 8,
+      "reelMaskFree": 8,
+      "symbolH": 1,
+      "symbolId": 1009,
+      "symbolValue": 1009,
+      "symbolW": 1
+    }
+  },
+  "specialPayTables": [
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1000
+        ],
+        [
+          1000
+        ],
+        [
+          1000
+        ],
+        [
+          1000
+        ]
+      ],
+      "pays": [
+        600
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1001
+        ],
+        [
+          1001
+        ],
+        [
+          1001
+        ],
+        [
+          1001
+        ]
+      ],
+      "pays": [
+        400
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "pays": [
+        100
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1000
+        ],
+        [
+          1000
+        ],
+        [
+          1000
+        ]
+      ],
+      "pays": [
+        80
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1001
+        ],
+        [
+          1001
+        ],
+        [
+          1001
+        ]
+      ],
+      "pays": [
+        50
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1002
+        ],
+        [
+          1002
+        ],
+        [
+          1002
+        ]
+      ],
+      "pays": [
+        30
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1003
+        ],
+        [
+          1003
+        ],
+        [
+          1003
+        ]
+      ],
+      "pays": [
+        20
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1004
+        ],
+        [
+          1004
+        ],
+        [
+          1004
+        ]
+      ],
+      "pays": [
+        10
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1005
+        ],
+        [
+          1005
+        ],
+        [
+          1005
+        ]
+      ],
+      "pays": [
+        5
+      ]
+    },
+    {
+      "type": 0,
+      "symbols": [
+        [
+          1002,
+          1003,
+          1004
+        ],
+        [
+          1002,
+          1003,
+          1004
+        ],
+        [
+          1002,
+          1003,
+          1004
+        ]
+      ],
+      "pays": [
+        5
+      ]
+    },
+    {
+      "type": 1,
+      "symbols": [
+        [
+          1005
+        ],
+        [
+          1005
+        ],
+        [
+          -2
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        2
+      ]
+    },
+    {
+      "type": 1,
+      "symbols": [
+        [
+          1005
+        ],
+        [
+          -2
+        ],
+        [
+          -2
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        1
+      ]
+    }
+  ],
+  "client": {
+    "symbolMoveMode": 1796,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "classic_fever_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "classic_fever/reels/bg/classic_fever_background.jpg",
+    "reelName": "",
+    "slotSceneType": 107,
+    "displayName": "Classic Fever",
+    "freeSpinBgMusic": "",
+    "name": "Classic Fever",
+    "resRootDir": "classic_fever",
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-2"
+    ],
+    "symbolBatchName": "classic_fever/reels/symbol/classic_fever_symbol_batch.png",
+    "symbolBatchPlistPath": "classic_fever/reels/symbol/classic_fever_symbol_batch.plist",
+    "spinUiTitleName": "casino/casino_ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui_2",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": 3
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": 3
+      },
+      "3": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win-2",
+        "effectDuration": 30
+      }
+    },
+    "functionType": 2
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 109,
+      "extraPays": [
+        {
+          "symbolValue": 1006,
+          "specialPayTables": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "multi": [
+            1,
+            7
+          ]
+        },
+        {
+          "symbolValue": 1007,
+          "specialPayTables": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "multi": [
+            1,
+            5
+          ]
+        },
+        {
+          "symbolValue": 1008,
+          "specialPayTables": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "multi": [
+            1,
+            3
+          ]
+        },
+        {
+          "symbolValue": 1009,
+          "specialPayTables": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "multi": [
+            1,
+            2
+          ]
+        }
+      ],
+      "jackpotSymbolId": 6
+    }
+  }
+}

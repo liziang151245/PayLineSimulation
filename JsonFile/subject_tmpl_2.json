@@ -1,0 +1,476 @@
+{
+  "bgName": "fruits_fantasy/reels/bg/fruits_fantasy_background.jpg",
+  "slotSceneType": 101,
+  "bonusId": 2,
+  "payTableConfig": {
+    "payTableType": 0,
+    "descriptions": [
+      {
+        "content": "",
+        "descriptionTemplateId": 1,
+        "image": "fruits_fantasy_paytable.jpg",
+        "title": "",
+        "centerImage": true
+      }
+    ],
+    "specialDescription": {
+      "specialTitles": [],
+      "specialDescriptions": [],
+      "specialIds": [],
+      "specialTemplateId": 0
+    }
+  },
+  "displayName": "Fruits Fantasy",
+  "freeSpinBgMusic": "",
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "rows": [
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  ],
+  "name": "fruits_fantasy",
+  "normalSpinPanels": 1,
+  "panelType": 0,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 3,
+      "slotRows": 3,
+      "slotsWidth": 226,
+      "spinRegion": [
+        199,
+        198,
+        733,
+        308
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 101
+    }
+  ],
+  "reelCol": 3,
+  "reelRow": 3,
+  "resRootDir": "fruits_fantasy",
+  "spinBgMusicArray": [
+    "slots/spin_bg/spin-bg-1",
+    "slots/spin_bg/spin-bg-2",
+    "slots/spin_bg/spin-bg-3"
+  ],
+  "spinType": 1,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 2,
+  "symbolBatchName": "fruits_fantasy/reels/symbol/fruits_fantasy_symbol_batch.png",
+  "symbolBatchPlistPath": "fruits_fantasy/reels/symbol/fruits_fantasy_symbol_batch.plist",
+  "symbolStrategyId": 9,
+  "symbolOpType": 1,
+  "symbols": {
+    "3": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3,
+      "symbolW": 1
+    },
+    "1": {
+      "animEffect": 0,
+      "animName": "fruits_fantasy/reels/symbol/fruits_fantasy_triplewild.ccbi",
+      "bgName": "",
+      "imgName": "fruits_fantasy_triplewild.png",
+      "name": "Triple Wild",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "1101": {
+      "animEffect": 0,
+      "animName": "fruits_fantasy/reels/symbol/fruits_fantasy_doublewild.ccbi",
+      "bgName": "",
+      "imgName": "fruits_fantasy_doublewild.png",
+      "name": "Double Wild",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1101,
+      "symbolValue": 1101,
+      "symbolW": 1
+    },
+    "1102": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "fruits_fantasy_freespinx5.png",
+      "name": "FreeSpin5",
+      "payTables": null,
+      "reelMask": 2,
+      "reelMaskFree": 2,
+      "symbolH": 1,
+      "symbolId": 1102,
+      "symbolValue": 1102,
+      "symbolW": 1
+    },
+    "1103": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "fruits_fantasy_freespinx3.png",
+      "name": "FreeSpin3",
+      "payTables": null,
+      "reelMask": 2,
+      "reelMaskFree": 2,
+      "symbolH": 1,
+      "symbolId": 1103,
+      "symbolValue": 1103,
+      "symbolW": 1
+    },
+    "1104": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "fruits_fantasy_freespinx1.png",
+      "name": "FreeSpin1",
+      "payTables": null,
+      "reelMask": 2,
+      "reelMaskFree": 2,
+      "symbolH": 1,
+      "symbolId": 1104,
+      "symbolValue": 1104,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "fruits_fantasy_cherry.png",
+      "name": "Cherry",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "fruits_fantasy_lemon.png",
+      "name": "Lemon",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "fruits_fantasy_orange.png",
+      "name": "Orange",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "fruits_fantasy_grape.png",
+      "name": "Grape",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "fruits_fantasy_watermelon.png",
+      "name": "Watermelon",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    }
+  },
+  "specialPayTables": [
+    {
+      "index": 0,
+      "type": 0,
+      "symbols": [
+        [
+          1000
+        ],
+        [
+          1000
+        ],
+        [
+          1000
+        ]
+      ],
+      "pays": [
+        60
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "symbols": [
+        [
+          1001
+        ],
+        [
+          1001
+        ],
+        [
+          1001
+        ]
+      ],
+      "pays": [
+        20
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "symbols": [
+        [
+          1002
+        ],
+        [
+          1002
+        ],
+        [
+          1002
+        ]
+      ],
+      "pays": [
+        8
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "symbols": [
+        [
+          1003
+        ],
+        [
+          1003
+        ],
+        [
+          1003
+        ]
+      ],
+      "pays": [
+        6
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "symbols": [
+        [
+          1004
+        ],
+        [
+          1004
+        ],
+        [
+          1004
+        ]
+      ],
+      "pays": [
+        4
+      ]
+    },
+    {
+      "index": 5,
+      "type": 1,
+      "symbols": [
+        [
+          1,
+          1101
+        ],
+        [
+          1,
+          1101
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        1
+      ]
+    },
+    {
+      "index": 6,
+      "type": 1,
+      "symbols": [
+        [
+          1,
+          1101
+        ],
+        [
+          -2
+        ],
+        [
+          -2
+        ]
+      ],
+      "pays": [
+        1
+      ]
+    }
+  ],
+  "specials": {
+    "type": 102,
+    "respinIds": {
+      "1102": 5,
+      "1103": 3,
+      "1104": 1
+    },
+    "extraPays": [
+      {
+        "symbolValue": 1,
+        "specialPayTables": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "multi": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "symbolValue": 1101,
+        "specialPayTables": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        "multi": [
+          1,
+          2,
+          4
+        ]
+      }
+    ],
+    "respinGen": {
+      "payoutsWeights": [
+        4337,
+        2500,
+        1200,
+        800,
+        500,
+        300,
+        150,
+        80,
+        50,
+        30,
+        20,
+        15,
+        10,
+        5,
+        3
+      ],
+      "payouts": [
+        "0-0",
+        "2-0",
+        "3-0",
+        "4-0",
+        "6-0",
+        "8-0",
+        "12-0",
+        "16-0",
+        "18-0",
+        "20-0",
+        "24-0",
+        "40-0",
+        "60-0",
+        "120-0",
+        "180-0"
+      ]
+    }
+  },
+  "unlockStar": 0,
+  "spinUiTitleName": "casino/casino_ui_title",
+  "spinUiBottomName": "slot/slot_spin_ui",
+  "winEffectMap": {
+    "1": {
+      "effectName": "slots/small_win/small-win-2",
+      "effectDuration": 3
+    },
+    "2": {
+      "effectName": "slots/small_win/small-win-2",
+      "effectDuration": 3
+    },
+    "3": {
+      "effectType": 1,
+      "effectName": "slots/small_win/small-win-2",
+      "effectDuration": 10
+    },
+    "4": {
+      "effectType": 1,
+      "effectName": "slots/small_win/small-win-2",
+      "effectDuration": 30
+    }
+  },
+  "functionType": 2
+}

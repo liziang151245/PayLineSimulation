@@ -1,0 +1,782 @@
+{
+  "subjectTmplId": 4011,
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "normalSpinPanels": 1,
+  "reelCol": 5,
+  "reelRow": 3,
+  "symbolOpType": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          51,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          204,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          0,
+          102,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          51,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          102,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          102,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          255,
+          153,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          102,
+          255,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          255,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          0,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          0,
+          51,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          51,
+          51,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          153,
+          51,
+          0,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          51,
+          204,
+          0,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          0,
+          102,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          2,
+          2,
+          0
+        ]
+      }
+    ]
+  ],
+  "symbols": {
+    "1": {
+      "animEffect": 0,
+      "animName": "wolf_moon/reels/symbol/wolf_moon_langyue.ccbi",
+      "bgName": "",
+      "imgName": "wolf_moon_langyue.png",
+      "name": "Wolf called under the moon",
+      "payTables": {
+        "5": 1000
+      },
+      "reelMask": 254,
+      "reelMaskFree": 254,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1
+    },
+    "2": {
+      "animEffect": 0,
+      "animName": "wolf_moon/reels/symbol/wolf_moon_yuelang.ccbi",
+      "bgName": "",
+      "imgName": "wolf_moon_yuelang.png",
+      "name": "White Wolf and Moonlight",
+      "payTables": {
+        "3": 2,
+        "4": 10,
+        "5": 50
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 2,
+      "symbolValue": 2
+    },
+    "1000": {
+      "animEffect": 0,
+      "animName": "wolf_moon/reels/symbol/wolf_moon_bailang.ccbi",
+      "bgName": "",
+      "imgName": "wolf_moon_bailang.png",
+      "name": "White Wolf",
+      "payTables": {
+        "2": 4,
+        "3": 100,
+        "4": 200,
+        "5": 1000
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000
+    },
+    "1001": {
+      "animEffect": 0,
+      "animName": "wolf_moon/reels/symbol/wolf_moon_huilang.ccbi",
+      "bgName": "",
+      "imgName": "wolf_moon_huilang.png",
+      "name": "Gray Wolf",
+      "payTables": {
+        "2": 2,
+        "3": 80,
+        "4": 150,
+        "5": 500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wolf_moon_yanjing.png",
+      "name": "Wolf Eye",
+      "payTables": {
+        "3": 50,
+        "4": 100,
+        "5": 300
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wolf_moon_jiaoyin.png",
+      "name": "Wolf Footprint",
+      "payTables": {
+        "3": 50,
+        "4": 100,
+        "5": 300
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wolf_moon_a.png",
+      "name": "A",
+      "payTables": {
+        "3": 40,
+        "4": 800,
+        "5": 150
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wolf_moon_k.png",
+      "name": "K",
+      "payTables": {
+        "3": 20,
+        "4": 50,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005
+    },
+    "1006": {
+      "animEffect": 3,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wolf_moon_q.png",
+      "name": "Q",
+      "payTables": {
+        "3": 20,
+        "4": 50,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006
+    },
+    "1007": {
+      "animEffect": 1,
+      "animName": "",
+      "bgName": "",
+      "imgName": "wolf_moon_j.png",
+      "name": "J",
+      "payTables": {
+        "3": 10,
+        "4": 40,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolW": 1,
+      "symbolH": 1,
+      "symbolId": 1007,
+      "symbolValue": 1007
+    }
+  },
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 3,
+      "slotsWidth": 176,
+      "spinRegionPolicy": 2,
+      "spinRegionIpad": [
+        58,
+        168,
+        908,
+        504,
+        1,
+        1
+      ],
+      "spinRegionIphone4": [
+        53,
+        135,
+        854,
+        418,
+        0.94,
+        0.83
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 4011
+    }
+  ],
+  "specialPayTables": {},
+  "client": {
+    "symbolMoveMode": 0,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "wolf_moon_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "wolf_moon_paytable2.jpg",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "stackSymbols": null,
+    "bgName": "wolf_moon/reels/bg/wolf_moon_background.jpg",
+    "reelName": "wolf_moon/reels/bg/wolf_moon_wheel.png",
+    "slotSceneType": 4011,
+    "displayName": "Wild Wolf",
+    "freeSpinBgMusic": "",
+    "name": "Wild Wolf",
+    "resRootDir": "wolf_moon",
+    "spinBgMusic": "",
+    "symbolBatchName": "wolf_moon/reels/symbol/wolf_moon_symbol_batch.png",
+    "symbolBatchPlistPath": "wolf_moon/reels/symbol/wolf_moon_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/casino_ui_title_video",
+    "spinUiBottomName": "slot/slot_spin_ui_video1024",
+    "spinUiBottomNameIphone": "slot/slot_spin_ui_video1136",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "2": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "3": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      },
+      "4": {
+        "effectName": "slots/small_win/small-win-1",
+        "effectDuration": 3
+      }
+    },
+    "prizePoolType": 1,
+    "functionType": 1
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 411,
+      "freeGamesWeight" : [
+        {"weight":"10", "count":"3"},
+        {"weight":"15", "count":"4"},
+        {"weight":"34", "count":"5"},
+        {"weight":"25", "count":"6"},
+        {"weight":"10", "count":"7"},
+        {"weight":"3", "count":"8"},
+        {"weight":"2", "count":"9"},
+        {"weight":"1", "count":"10"}
+      ],
+      "wildWeight" : [
+        {"weight" : 1400, "symbolIds" : [1000]},
+        {"weight" : 1400, "symbolIds" : [1001]},
+        {"weight" : 1400, "symbolIds" : [1002]},
+        {"weight" : 1400, "symbolIds" : [1003]},
+        {"weight" : 1500, "symbolIds" : [1004]},
+        {"weight" : 200, "symbolIds" : [1005]},
+        {"weight" : 150, "symbolIds" : [1006]},
+        {"weight" : 100, "symbolIds" : [1007]},
+        {"weight" : 1600, "symbolIds" : [1000,1001]},
+        {"weight" : 900, "symbolIds" : [1000,1002]},
+        {"weight" : 800, "symbolIds" : [1000,1003]},
+        {"weight" : 550, "symbolIds" : [1000,1004]},
+        {"weight" : 200, "symbolIds" : [1000,1005]},
+        {"weight" : 70, "symbolIds" : [1000,1006]},
+        {"weight" : 50, "symbolIds" : [1000,1007]},
+        {"weight" : 700, "symbolIds" : [1001,1002]},
+        {"weight" : 600, "symbolIds" : [1001,1003]},
+        {"weight" : 450, "symbolIds" : [1001,1004]},
+        {"weight" : 50, "symbolIds" : [1001,1005]},
+        {"weight" : 20, "symbolIds" : [1001,1006]},
+        {"weight" : 20, "symbolIds" : [1001,1007]},
+        {"weight" : 300, "symbolIds" : [1002,1003]},
+        {"weight" : 100, "symbolIds" : [1002,1004]},
+        {"weight" : 20, "symbolIds" : [1002,1005]},
+        {"weight" : 5, "symbolIds" : [1002,1006]},
+        {"weight" : 8, "symbolIds" : [1002,1007]},
+        {"weight" : 50, "symbolIds" : [1003,1004]},
+        {"weight" : 30, "symbolIds" : [1003,1005]},
+        {"weight" : 10, "symbolIds" : [1003,1006]},
+        {"weight" : 10, "symbolIds" : [1003,1007]},
+        {"weight" : 6, "symbolIds" : [1004,1005]},
+        {"weight" : 5, "symbolIds" : [1004,1006]},
+        {"weight" : 5, "symbolIds" : [1004,1007]},
+        {"weight" : 4, "symbolIds" : [1005,1006]},
+        {"weight" : 4, "symbolIds" : [1005,1007]},
+        {"weight" : 4, "symbolIds" : [1006,1007]},
+        {"weight" : 60, "symbolIds" : [1000,1001,1002]},
+        {"weight" : 45, "symbolIds" : [1000,1001,1003]},
+        {"weight" : 20, "symbolIds" : [1000,1001,1004]},
+        {"weight" : 8, "symbolIds" : [1000,1001,1005]},
+        {"weight" : 5, "symbolIds" : [1000,1001,1006]},
+        {"weight" : 5, "symbolIds" : [1000,1001,1007]},
+        {"weight" : 8, "symbolIds" : [1000,1002,1003]},
+        {"weight" : 5, "symbolIds" : [1000,1002,1004]},
+        {"weight" : 5, "symbolIds" : [1000,1002,1005]},
+        {"weight" : 3, "symbolIds" : [1000,1002,1006]},
+        {"weight" : 4, "symbolIds" : [1000,1002,1007]},
+        {"weight" : 5, "symbolIds" : [1000,1003,1004]},
+        {"weight" : 5, "symbolIds" : [1000,1003,1005]},
+        {"weight" : 3, "symbolIds" : [1000,1003,1006]},
+        {"weight" : 4, "symbolIds" : [1000,1003,1007]},
+        {"weight" : 3, "symbolIds" : [1000,1004,1005]},
+        {"weight" : 3, "symbolIds" : [1000,1004,1006]},
+        {"weight" : 3, "symbolIds" : [1000,1004,1007]},
+        {"weight" : 3, "symbolIds" : [1000,1005,1006]},
+        {"weight" : 3, "symbolIds" : [1000,1005,1007]},
+        {"weight" : 3, "symbolIds" : [1000,1006,1007]},
+        {"weight" : 8, "symbolIds" : [1001,1002,1003]},
+        {"weight" : 5, "symbolIds" : [1001,1002,1004]},
+        {"weight" : 4, "symbolIds" : [1001,1002,1005]},
+        {"weight" : 3, "symbolIds" : [1001,1002,1006]},
+        {"weight" : 3, "symbolIds" : [1001,1002,1007]},
+        {"weight" : 5, "symbolIds" : [1001,1003,1004]},
+        {"weight" : 4, "symbolIds" : [1001,1003,1005]},
+        {"weight" : 3, "symbolIds" : [1001,1003,1006]},
+        {"weight" : 3, "symbolIds" : [1001,1003,1007]},
+        {"weight" : 3, "symbolIds" : [1001,1004,1005]},
+        {"weight" : 1, "symbolIds" : [1001,1004,1006]},
+        {"weight" : 3, "symbolIds" : [1001,1004,1007]},
+        {"weight" : 1, "symbolIds" : [1001,1005,1006]},
+        {"weight" : 1, "symbolIds" : [1001,1005,1007]},
+        {"weight" : 1, "symbolIds" : [1001,1006,1007]},
+        {"weight" : 3, "symbolIds" : [1002,1003,1004]},
+        {"weight" : 3, "symbolIds" : [1002,1003,1005]},
+        {"weight" : 2, "symbolIds" : [1002,1003,1006]},
+        {"weight" : 2, "symbolIds" : [1002,1003,1007]},
+        {"weight" : 2, "symbolIds" : [1002,1004,1005]},
+        {"weight" : 1, "symbolIds" : [1002,1004,1006]},
+        {"weight" : 1, "symbolIds" : [1002,1004,1007]},
+        {"weight" : 1, "symbolIds" : [1002,1005,1006]},
+        {"weight" : 1, "symbolIds" : [1002,1005,1007]},
+        {"weight" : 1, "symbolIds" : [1002,1006,1007]},
+        {"weight" : 2, "symbolIds" : [1003,1004,1005]},
+        {"weight" : 1, "symbolIds" : [1003,1004,1006]},
+        {"weight" : 1, "symbolIds" : [1003,1004,1007]},
+        {"weight" : 1, "symbolIds" : [1003,1005,1006]},
+        {"weight" : 1, "symbolIds" : [1003,1005,1007]},
+        {"weight" : 1, "symbolIds" : [1003,1006,1007]},
+        {"weight" : 1, "symbolIds" : [1004,1005,1006]},
+        {"weight" : 1, "symbolIds" : [1004,1005,1007]},
+        {"weight" : 1, "symbolIds" : [1004,1006,1007]},
+        {"weight" : 1, "symbolIds" : [1005,1006,1007]}
+      ]
+    }
+  }
+}

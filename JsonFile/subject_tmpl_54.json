@@ -1,0 +1,513 @@
+{
+  "bonusId": 2, 
+  "freeSpinPanels": 0, 
+  "lines": [
+    [
+      {
+        "color": [
+          254, 
+          108, 
+          0, 
+          255
+        ], 
+        "rows": [
+          1, 
+          1, 
+          1
+        ]
+      }, 
+      {
+        "color": [
+          203, 
+          26, 
+          0, 
+          255
+        ], 
+        "rows": [
+          2, 
+          2, 
+          2
+        ]
+      }, 
+      {
+        "color": [
+          186, 
+          39, 
+          3, 
+          255
+        ], 
+        "rows": [
+          0, 
+          0, 
+          0
+        ]
+      }, 
+      {
+        "color": [
+          136, 
+          0, 
+          23, 
+          255
+        ], 
+        "rows": [
+          2, 
+          1, 
+          0
+        ]
+      }, 
+      {
+        "color": [
+          152, 
+          3, 
+          8, 
+          255
+        ], 
+        "rows": [
+          0, 
+          1, 
+          2
+        ]
+      }
+    ]
+  ], 
+  "normalSpinPanels": 4, 
+  "panels": [
+    {
+      "colShift": 0, 
+      "columnFreeSpinBg": "", 
+      "columnNormalBg": "", 
+      "panelId": 0, 
+      "rowShift": 0, 
+      "slotCols": 3, 
+      "slotRows": 3, 
+      "slotsWidth": 105, 
+      "spinRegion": [
+        205, 
+        393, 
+        337, 
+        172
+      ], 
+      "subBgName": "", 
+      "subBgPos": [
+        0, 
+        0
+      ], 
+      "winFrameAnimName": "", 
+      "winFrameName": "", 
+      "spinLayerType": 154
+    }, 
+    {
+      "colShift": 0, 
+      "columnFreeSpinBg": "", 
+      "columnNormalBg": "", 
+      "panelId": 1, 
+      "rowShift": 0, 
+      "slotCols": 3, 
+      "slotRows": 3, 
+      "slotsWidth": 105, 
+      "spinRegion": [
+        594, 
+        393, 
+        337, 
+        172
+      ], 
+      "subBgName": "", 
+      "subBgPos": [
+        0, 
+        0
+      ], 
+      "winFrameAnimName": "", 
+      "winFrameName": "", 
+      "spinLayerType": 154
+    }, 
+    {
+      "colShift": 0, 
+      "columnFreeSpinBg": "", 
+      "columnNormalBg": "", 
+      "panelId": 2, 
+      "rowShift": 0, 
+      "slotCols": 3, 
+      "slotRows": 3, 
+      "slotsWidth": 105, 
+      "spinRegion": [
+        205, 
+        190, 
+        337, 
+        172
+      ], 
+      "subBgName": "", 
+      "subBgPos": [
+        0, 
+        0
+      ], 
+      "winFrameAnimName": "", 
+      "winFrameName": "", 
+      "spinLayerType": 154
+    }, 
+    {
+      "colShift": 0, 
+      "columnFreeSpinBg": "", 
+      "columnNormalBg": "", 
+      "panelId": 3, 
+      "rowShift": 0, 
+      "slotCols": 3, 
+      "slotRows": 3, 
+      "slotsWidth": 105, 
+      "spinRegion": [
+        594, 
+        190, 
+        337, 
+        172
+      ], 
+      "subBgName": "", 
+      "subBgPos": [
+        0, 
+        0
+      ], 
+      "winFrameAnimName": "", 
+      "winFrameName": "", 
+      "spinLayerType": 154
+    }
+  ], 
+  "reelCol": 3, 
+  "reelRow": 3, 
+  "stackSymbols": null, 
+  "subjectMode": 1, 
+  "subjectTmplId": 54, 
+  "symbolOpType": 1, 
+  "symbols": {
+    "3": {
+      "animEffect": 0, 
+      "animName": "", 
+      "bgName": "", 
+      "imgName": "", 
+      "name": "Empty", 
+      "payTables": null, 
+      "reelMask": 255, 
+      "reelMaskFree": 255, 
+      "symbolH": 1, 
+      "symbolId": 3, 
+      "symbolValue": 3, 
+      "symbolW": 1
+    }, 
+    "1": {
+      "animEffect": 2, 
+      "animName": "", 
+      "bgName": "", 
+      "imgName": "multi_super_wild_10x.png", 
+      "name": "Wild 10X", 
+      "payTables": null, 
+      "reelMask": 255, 
+      "reelMaskFree": 255, 
+      "symbolH": 1, 
+      "symbolId": 1, 
+      "symbolValue": 1, 
+      "symbolW": 1
+    }, 
+    "1101": {
+      "animEffect": 2, 
+      "animName": "", 
+      "bgName": "", 
+      "imgName": "multi_super_wild_5x.png", 
+      "name": "Wild 5X", 
+      "payTables": null, 
+      "reelMask": 255, 
+      "reelMaskFree": 255, 
+      "symbolH": 1, 
+      "symbolId": 1101, 
+      "symbolValue": 1101, 
+      "symbolW": 1
+    }, 
+    "1102": {
+      "animEffect": 2, 
+      "animName": "", 
+      "bgName": "", 
+      "imgName": "multi_super_wild_2x.png", 
+      "name": "Wild 2X", 
+      "payTables": null, 
+      "reelMask": 255, 
+      "reelMaskFree": 255, 
+      "symbolH": 1, 
+      "symbolId": 1102, 
+      "symbolValue": 1102, 
+      "symbolW": 1
+    }, 
+    "1000": {
+      "animEffect": 2, 
+      "animName": "", 
+      "bgName": "", 
+      "imgName": "multi_super_wild_7.png", 
+      "name": "Red 7", 
+      "payTables": null, 
+      "reelMask": 255, 
+      "reelMaskFree": 255, 
+      "symbolH": 1, 
+      "symbolId": 1000, 
+      "symbolValue": 1000, 
+      "symbolW": 1
+    }, 
+    "1001": {
+      "animEffect": 2, 
+      "animName": "", 
+      "bgName": "", 
+      "imgName": "multi_super_wild_3bar.png", 
+      "name": "3 Bar", 
+      "payTables": null, 
+      "reelMask": 255, 
+      "reelMaskFree": 255, 
+      "symbolH": 1, 
+      "symbolId": 1001, 
+      "symbolValue": 1001, 
+      "symbolW": 1
+    }, 
+    "1002": {
+      "animEffect": 2, 
+      "animName": "", 
+      "bgName": "", 
+      "imgName": "multi_super_wild_2bar.png", 
+      "name": "2 Bar", 
+      "payTables": null, 
+      "reelMask": 255, 
+      "reelMaskFree": 255, 
+      "symbolH": 1, 
+      "symbolId": 1002, 
+      "symbolValue": 1002, 
+      "symbolW": 1
+    }, 
+    "1003": {
+      "animEffect": 2, 
+      "animName": "", 
+      "bgName": "", 
+      "imgName": "multi_super_wild_bar.png", 
+      "name": "Bar", 
+      "payTables": null, 
+      "reelMask": 255, 
+      "reelMaskFree": 255, 
+      "symbolH": 1, 
+      "symbolId": 1003, 
+      "symbolValue": 1003, 
+      "symbolW": 1
+    }
+  }, 
+  "specialPayTables": [
+    {
+      "index": 0, 
+      "type": 0, 
+      "symbols": [
+        [
+          1000
+        ], 
+        [
+          1000
+        ], 
+        [
+          1000
+        ]
+      ], 
+      "pays": [
+        16
+      ], 
+      "mismatchWildSeq": true
+    }, 
+    {
+      "index": 1, 
+      "type": 0, 
+      "symbols": [
+        [
+          1001
+        ], 
+        [
+          1001
+        ], 
+        [
+          1001
+        ]
+      ], 
+      "pays": [
+        12
+      ], 
+      "mismatchWildSeq": true
+    }, 
+    {
+      "index": 2, 
+      "type": 0, 
+      "symbols": [
+        [
+          1002
+        ], 
+        [
+          1002
+        ], 
+        [
+          1002
+        ]
+      ], 
+      "pays": [
+        8
+      ], 
+      "mismatchWildSeq": true
+    }, 
+    {
+      "index": 3, 
+      "type": 0, 
+      "symbols": [
+        [
+          1003
+        ], 
+        [
+          1003
+        ], 
+        [
+          1003
+        ]
+      ], 
+      "pays": [
+        5
+      ], 
+      "mismatchWildSeq": true
+    }, 
+    {
+      "index": 4, 
+      "type": 0, 
+      "symbols": [
+        [
+          1001, 
+          1002, 
+          1003
+        ], 
+        [
+          1001, 
+          1002, 
+          1003
+        ], 
+        [
+          1001, 
+          1002, 
+          1003
+        ]
+      ], 
+      "pays": [
+        3
+      ], 
+      "mismatchWildSeq": true
+    }
+  ], 
+  "client": {
+    "symbolStrategyId": 54, 
+    "payTableConfig": {
+      "payTableType": 0, 
+      "specialDescription": {
+        "specialTitles": [], 
+        "specialDescriptions": [], 
+        "specialIds": [], 
+        "specialTemplateId": 0
+      }, 
+      "descriptions": [
+        {
+          "content": "", 
+          "descriptionTemplateId": 1, 
+          "image": "multi_super_wild_paytable.jpg", 
+          "title": "", 
+          "centerImage": true
+        }, 
+        {
+          "content": "", 
+          "descriptionTemplateId": 1, 
+          "image": "multi_super_wild_paytable2.png", 
+          "title": "", 
+          "centerImage": true, 
+          "show": false
+        }
+      ]
+    }, 
+    "maxBetGrade": 1, 
+    "bgName": "multi_super_wild/reels/bg/multi_super_wild_background.jpg", 
+    "reelName": "", 
+    "slotSceneType": 154, 
+    "displayName": "Multi Super Wild", 
+    "freeSpinBgMusic": "", 
+    "name": "Multi Super Wild", 
+    "resRootDir": "multi_super_wild", 
+    "spinBgMusicArray": [
+      "slots/spin_bg/spin-bg-1"
+    ], 
+    "symbolBatchName": "multi_super_wild/reels/symbol/multi_super_wild_symbol_batch.png", 
+    "symbolBatchPlistPath": "multi_super_wild/reels/symbol/multi_super_wild_symbol_batch.plist", 
+    "spinUiTitleName": "casino/ui_title", 
+    "spinUiBottomName": "slot/slot_spin_ui_3", 
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/small_win/small-win-1", 
+        "effectDuration": 3
+      }, 
+      "2": {
+        "effectName": "slots/small_win/small-win-1", 
+        "effectDuration": 3
+      }, 
+      "3": {
+        "effectName": "slots/small_win/small-win-1", 
+        "effectDuration": 10
+      }, 
+      "4": {
+        "effectType": 1, 
+        "effectName": "slots/small_win/small-win-1", 
+        "effectDuration": 20
+      }
+    }, 
+    "functionType": 2
+  }, 
+  "server": {
+    "panelType": 0, 
+    "spinType": 1, 
+    "specials": {
+      "type": 154, 
+      "extraPays": [
+        {
+          "symbolValue": 1, 
+          "specialPayTables": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4
+          ], 
+          "multi": [
+            1, 
+            10, 
+            100
+          ]
+        }, 
+        {
+          "symbolValue": 1101, 
+          "specialPayTables": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4
+          ], 
+          "multi": [
+            1, 
+            5, 
+            25
+          ]
+        }, 
+        {
+          "symbolValue": 1102, 
+          "specialPayTables": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4
+          ], 
+          "multi": [
+            1, 
+            2, 
+            4
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,849 @@
+{
+  "bonusId": 2,
+  "freeSpinPanels": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          254,
+          253,
+          56,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          35,
+          253,
+          47,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          41,
+          254,
+          254,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          16,
+          34,
+          250,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          253,
+          39,
+          252,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          243,
+          94,
+          31,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          161,
+          242,
+          48,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          34,
+          242,
+          94,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          27,
+          161,
+          242,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          94,
+          33,
+          242,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          243,
+          26,
+          162,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          231,
+          168,
+          39,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          84,
+          230,
+          43,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          34,
+          230,
+          167,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          25,
+          84,
+          230,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          168,
+          33,
+          230,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          231,
+          23,
+          86,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          208,
+          217,
+          46,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          29,
+          217,
+          42,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          1,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          32,
+          208,
+          217,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          1,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          43,
+          32,
+          217,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          217,
+          32,
+          203,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          204,
+          106,
+          41,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          0,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          138,
+          204,
+          41,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          38,
+          203,
+          106,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          41,
+          139,
+          203,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          107,
+          40,
+          204,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          204,
+          41,
+          138,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          191,
+          155,
+          49,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ]
+      }
+    ]
+  ],
+  "normalSpinPanels": 1,
+  "panels": [
+    {
+      "colShift": 0,
+      "columnFreeSpinBg": "",
+      "columnNormalBg": "",
+      "panelId": 0,
+      "rowShift": 0,
+      "slotCols": 5,
+      "slotRows": 3,
+      "slotsWidth": 135,
+      "spinRegion": [
+        199,
+        192,
+        735,
+        274
+      ],
+      "subBgName": "",
+      "subBgPos": [
+        0,
+        0
+      ],
+      "winFrameAnimName": "",
+      "winFrameName": "",
+      "spinLayerType": 159
+    }
+  ],
+  "reelCol": 5,
+  "reelRow": 3,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "subjectTmplId": 61,
+  "symbolOpType": 1,
+  "symbols": {
+    "3": {
+      "animEffect": 0,
+      "animName": "",
+      "bgName": "",
+      "imgName": "",
+      "name": "Empty",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 3,
+      "symbolValue": 3,
+      "symbolW": 1
+    },
+    "50": {
+      "animEffect": 0,
+      "animName": "skulls_party/reels/symbol/skulls_party_bonus_1.ccbi",
+      "bgName": "",
+      "imgName": "skulls_party_bonus_1.png",
+      "name": "Classic 777",
+      "payTables": null,
+      "reelMask": 2,
+      "reelMaskFree": 2,
+      "symbolH": 1,
+      "symbolId": 50,
+      "symbolValue": 50,
+      "symbolW": 1
+    },
+    "51": {
+      "animEffect": 0,
+      "animName": "skulls_party/reels/symbol/skulls_party_bonus_2.ccbi",
+      "bgName": "",
+      "imgName": "skulls_party_bonus_2.png",
+      "name": "Emerald Deluxe",
+      "payTables": null,
+      "reelMask": 4,
+      "reelMaskFree": 4,
+      "symbolH": 1,
+      "symbolId": 51,
+      "symbolValue": 51,
+      "symbolW": 1
+    },
+    "52": {
+      "animEffect": 0,
+      "animName": "skulls_party/reels/symbol/skulls_party_bonus_3.ccbi",
+      "bgName": "",
+      "imgName": "skulls_party_bonus_3.png",
+      "name": "Super 777",
+      "payTables": null,
+      "reelMask": 1,
+      "reelMaskFree": 1,
+      "symbolH": 1,
+      "symbolId": 52,
+      "symbolValue": 52,
+      "symbolW": 1
+    },
+    "53": {
+      "animEffect": 0,
+      "animName": "skulls_party/reels/symbol/skulls_party_bonus_4.ccbi",
+      "bgName": "",
+      "imgName": "skulls_party_bonus_4.png",
+      "name": "Triple Hit Diamond",
+      "payTables": null,
+      "reelMask": 16,
+      "reelMaskFree": 16,
+      "symbolH": 1,
+      "symbolId": 53,
+      "symbolValue": 53,
+      "symbolW": 1
+    },
+    "54": {
+      "animEffect": 0,
+      "animName": "skulls_party/reels/symbol/skulls_party_bonus_5.ccbi",
+      "bgName": "",
+      "imgName": "skulls_party_bonus_5.png",
+      "name": "Gold Pot",
+      "payTables": null,
+      "reelMask": 8,
+      "reelMaskFree": 8,
+      "symbolH": 1,
+      "symbolId": 54,
+      "symbolValue": 54,
+      "symbolW": 1
+    },
+    "1": {
+      "animEffect": 0,
+      "animName": "skulls_party/reels/symbol/skulls_party_wild.ccbi",
+      "bgName": "",
+      "imgName": "skulls_party_wild.png",
+      "name": "Pumpkin Wild",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "2": {
+      "animEffect": 0,
+      "animName": "skulls_party/reels/symbol/skulls_party_scatter.ccbi",
+      "bgName": "",
+      "imgName": "skulls_party_scatter.png",
+      "name": "Scatter",
+      "payTables": {
+        "3": 150,
+        "4": 300,
+        "5": 500
+      },
+      "reelMask": 14,
+      "reelMaskFree": 14,
+      "symbolH": 1,
+      "symbolId": 2,
+      "symbolValue": 2,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "skulls_party_777.png",
+      "name": "Fire 777",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "skulls_party_77.png",
+      "name": "Fire 77",
+      "payTables": {
+        "3": 150,
+        "4": 300,
+        "5": 500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "skulls_party_7.png",
+      "name": "7",
+      "payTables": {
+        "3": 150,
+        "4": 300,
+        "5": 500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "skulls_party_3bar.png",
+      "name": "Three Bar",
+      "payTables": {
+        "3": 150,
+        "4": 300,
+        "5": 500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "skulls_party_2bar.png",
+      "name": "Two Bar",
+      "payTables": {
+        "3": 150,
+        "4": 300,
+        "5": 500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "skulls_party_bar.png",
+      "name": "Bar",
+      "payTables": {
+        "3": 150,
+        "4": 300,
+        "5": 500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "",
+      "bgName": "",
+      "imgName": "skulls_party_mubei.png",
+      "name": "Tombstone",
+      "payTables": {
+        "3": 150,
+        "4": 300,
+        "5": 500
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006,
+      "symbolW": 1
+    }
+  },
+  "client": {
+    "symbolMoveMode": 1792,
+    "payTableConfig": {
+      "payTableType": 0,
+      "specialDescription": {
+        "specialTitles": [],
+        "specialDescriptions": [],
+        "specialIds": [],
+        "specialTemplateId": 0
+      },
+      "descriptions": [
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "skulls_party_paytable1.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "skulls_party_paytable2.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "skulls_party_super777_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "skulls_party_classic777_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "skulls_party_emerald_deluxe_paytable1.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "skulls_party_emerald_deluxe_paytable2.jpg",
+          "title": "Emerald Deluxe",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "skulls_party_gold_pot_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "skulls_party_triple_diamond_paytable.jpg",
+          "title": "",
+          "centerImage": true
+        },
+        {
+          "content": "",
+          "descriptionTemplateId": 1,
+          "image": "skulls_party_paytable3.png",
+          "title": "",
+          "centerImage": true
+        }
+      ]
+    },
+    "maxBetGrade": 1,
+    "bgName": "skulls_party/reels/bg/skulls_party_background.jpg",
+    "reelName": "",
+    "lightMaskName":"skulls_party/reels/bg/skulls_party_light.png",
+    "slotSceneType": 159,
+    "displayName": "Skulls Party",
+    "freeSpinBgMusic": "",
+    "name": "Skulls Party",
+    "resRootDir": "skulls_party",
+    "spinBgMusicArray": [
+      "skulls_party/mp3/spin-bg1",
+      "skulls_party/mp3/spin-bg2",
+      "skulls_party/mp3/spin-bg3"
+    ],
+    "symbolBatchName": "skulls_party/reels/symbol/skulls_party_symbol_batch.png",
+    "symbolBatchPlistPath": "skulls_party/reels/symbol/skulls_party_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/ui_title",
+    "spinUiBottomName": "slot/slot_spin_ui",
+    "winEffectMap": {
+      "1": {
+        "effectName": "skulls_party/mp3/small-win",
+        "effectDuration": 3
+      },
+      "2": {
+        "effectName": "skulls_party/mp3/small-win",
+        "effectDuration": 3
+      },
+      "3": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win",
+        "effectDuration": 10
+      },
+      "4": {
+        "effectType": 1,
+        "effectName": "slots/small_win/small-win",
+        "effectDuration": 30
+      }
+    },
+    "functionType": 2,
+    "showJackpotTitle": false
+  }
+}
