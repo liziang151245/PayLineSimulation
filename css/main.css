@@ -827,18 +827,18 @@ fieldset {
 
 #refreshButton{             /*预览按钮*/
     float: left;
-    position: relative;
-    margin-left: 50px;
-    margin-top: 15px;
+    position: fixed;
+    left: 360px;
+    top: 780px;
     width: 100px;
 
 }
 
 #outButton{                     /*输出按钮*/
     float: left;
-    position: relative;
-    margin-left: 50px;
-    margin-top: 15px;
+    position: fixed;
+    left: 215px;
+    top: 780px;
     width: 100px;
 
 }
