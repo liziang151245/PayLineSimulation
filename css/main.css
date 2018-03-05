@@ -1,0 +1,897 @@
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+#title{
+    text-align: center;
+}
+
+#configPanel{               /*交互界面*/
+    float:left;
+    position: relative;
+    margin-left: 150px;
+    width: 350px;
+    height: 768px;
+    background-color: #ffffff;
+}
+
+#selectEB{                      /*文件选择分割框*/
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 350px;
+    height: 115px;
+}
+
+#subjectListText{            /*关卡列表文字*/
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#subjectList{            /*关卡列表选择框*/
+    float: left;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 220px;
+    height: 35px;
+    font-size: 15px;
+}
+
+#selectBackgroundText{            /*上传背景图文字*/
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#selectBackground{              /*上传背景图编辑框*/
+    float: left;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+}
+#background{                    /*背景图选择*/
+    float:left;
+    position:relative;
+    width:195px;
+    height:26px;
+    margin-top: 4px;
+    font-size:17px;
+    margin-left: 4px;
+}
+
+
+#numberOfLinesEB{                      /*预览线数设置分割框*/
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 350px;
+    height: 85px;
+}
+
+#previewNumOfLinesText{             /*预览线数文字*/
+     float: left;
+     position: relative;
+     margin-left: 20px;
+     margin-top: 37px;
+ }
+
+#numberOfLines{                 /*同时展现线数选择*/
+    float: left;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+#orderOfPreviewEB{                      /*展现顺序分割框*/
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 350px;
+    height: 70px;
+}
+
+#orderOfPreviewText{             /*展现顺序文字*/
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+#orderOfPreview{                 /*展现顺序选择*/
+    float: left;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 15px;
+
+}
+#nextButton{                /*next按钮*/
+    float: left;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+#setColorEB{                /*设定颜色的分割框*/
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 350px;
+    height: 491px;
+}
+
+
+#colorText1{
+    margin-left: 16px;
+}
+#color1{
+    width: 25px;
+    margin-top: 20px;
+}
+#colorText2{
+    margin-left: 16px;
+}
+#color2{
+    width: 25px;
+    margin-top: 20px;
+}
+#colorText3{
+    margin-left: 16px;
+}
+#color3{
+    width: 25px;
+    margin-top: 20px;
+}
+#colorText4{
+    margin-left: 16px;
+}
+#color4{
+    width: 25px;
+    margin-top: 20px;
+}
+#colorText5{
+    margin-left: 16px;
+}
+#color5{
+    width: 25px;
+    margin-top: 20px;
+}
+#colorText6{
+    margin-left: 13px;
+}
+#color6{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText7{
+    margin-left: 16px;
+}
+#color7{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText8{
+    margin-left: 16px;
+}
+#color8{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText9{
+    margin-left: 16px;
+}
+#color9{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText10{
+    margin-left: 11px;
+}
+#color10{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText11{
+    margin-left: 11px;
+}
+#color11{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText12{
+    margin-left: 9px;
+}
+#color12{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText13{
+    margin-left: 9px;
+}
+#color13{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText14{
+    margin-left: 9px;
+}
+#color14{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText15{
+    margin-left: 9px;
+}
+#color15{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText16{
+    margin-left: 9px;
+}
+#color16{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText17{
+    margin-left: 9px;
+}
+#color17{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText18{
+    margin-left: 9px;
+}
+#color18{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText19{
+    margin-left: 9px;
+}
+#color19{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText20{
+    margin-left: 6px;
+}
+#color20{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText21{
+    margin-left: 10px;
+}
+#color21{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText22{
+    margin-left: 5px;
+}
+#color22{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText23{
+    margin-left: 6px;
+}
+#color23{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText24{
+    margin-left: 6px;
+}
+#color24{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText25{
+    margin-left: 6px;
+}
+#color25{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText26{
+    margin-left: 6px;
+}
+#color26{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText27{
+    margin-left: 6px;
+}
+#color27{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText28{
+    margin-left: 6px;
+}
+#color28{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText29{
+    margin-left: 6px;
+}
+#color29{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText30{
+    margin-left: 6px;
+}
+#color30{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText31{
+    margin-left: 10px;
+}
+#color31{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText32{
+    margin-left: 6px;
+}
+#color32{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText33{
+    margin-left: 6px;
+}
+#color33{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText34{
+    margin-left: 6px;
+}
+#color34{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText35{
+    margin-left: 6px;
+}
+#color35{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText36{
+    margin-left: 6px;
+}
+#color36{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText37{
+    margin-left: 6px;
+}
+#color37{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText38{
+    margin-left: 6px;
+}
+#color38{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText39{
+    margin-left: 6px;
+}
+#color39{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText40{
+    margin-left: 6px;
+}
+#color40{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText41{
+    margin-left: 10px;
+}
+#color41{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText42{
+    margin-left: 6px;
+}
+#color42{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText43{
+    margin-left: 6px;
+}
+#color43{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText44{
+    margin-left: 6px;
+}
+#color44{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText45{
+    margin-left: 6px;
+}
+#color45{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText46{
+    margin-left: 6px;
+}
+#color46{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText47{
+    margin-left: 6px;
+}
+#color47{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText48{
+    margin-left: 6px;
+}
+#color48{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText49{
+    margin-left: 6px;
+}
+#color49{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText50{
+    margin-left: 6px;
+}
+#color50{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText51{
+    margin-left: 10px;
+}
+#color51{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText52{
+    margin-left: 6px;
+}
+#color52{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText53{
+    margin-left: 6px;
+}
+#color53{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText54{
+    margin-left: 6px;
+}
+#color54{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText55{
+    margin-left: 6px;
+}
+#color55{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText56{
+    margin-left: 6px;
+}
+#color56{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText57{
+    margin-left: 6px;
+}
+#color57{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText58{
+    margin-left: 6px;
+}
+#color58{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText59{
+    margin-left: 6px;
+}
+#color59{
+    width: 25px;
+    margin-top: 10px;
+}
+#colorText60{
+    margin-left: 6px;
+}
+#color60{
+    width: 25px;
+    margin-top: 10px;
+}
+
+#refreshButton{             /*预览按钮*/
+    float: left;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 100px;
+
+}
+
+#outButton{                     /*输出按钮*/
+    float: left;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 100px;
+
+}
+
+#payTablePanel{             /*预览窗口*/
+    float: left;
+    position: absolute;
+    margin-left: 550px;
+    background:rgba(255,255,255,0);
+    width: 1136px;
+    height:768px;
+}
+#displayInterfaceLabel1{     /*预览界面背景lable可缩放*/
+    float:left;
+    margin-top:0px;
+    width:1136px;
+    height:768px;
+    z-index: 1;
+    position: absolute;
+    background:rgba(255,255,255,0);
+}
+
+#displayInterface{     /*预览界面*/
+
+    float:left;
+    background:rgba(255,255,255,0);
+    margin-top:0;
+    position: static;
+    z-index: 1;
+    width: 1136px;
+    height: 768px;
+
+}
+#displayInterfaceLabel2{     /*预览界面背景lable可缩放*/
+    float:left;
+    margin-top:0px;
+    width:1136px;
+    height:768px;
+    z-index: 0;
+    position: absolute;
+    background:rgba(255,255,255,0);
+}
+#imgInput{     /*预览背景图界面*/
+
+    top: 0;
+    float:left;
+    max-width: 1136px;
+    max-height: 768px;
+    width: 1136px;
+    height: 768px;
+    z-index:-1;
+    position: absolute;
+    background:rgba(255,255,255,0);
+
+}
+
