@@ -76,6 +76,9 @@ function addSubjectList(subjectTempId) {
     canvas.width = winWidth * PIXEL_RATIO;
     canvas.height = winHeight * PIXEL_RATIO;
 }
+
+
+//获取当前选择的同时展现线数
 function GetChangeNum(numOfLines) {
 
 
@@ -97,7 +100,6 @@ function GetChangeNum(numOfLines) {
         }
 
     return changeNum;
-
 
 }
 
@@ -123,6 +125,7 @@ $("#background").on("change", function(e) {
         document.getElementById("imgInput").src = arg.target.result;
     }
 });
+
 //点击next按钮功能
 nextButton.onclick = function () {
     var numOfLines = 0;
@@ -148,6 +151,7 @@ nextButton.onclick = function () {
     });
     isNextUp = true;
 };
+
 //点击预览按钮功能
 refreshButton.onclick = function(){
     var numOfLines = 0;
@@ -167,7 +171,41 @@ refreshButton.onclick = function(){
     });
 };
 
+//点击输出按钮功能
+outButton.onclick = function () {
+    $.getJSON(preUrlName + (document.getElementById("subjectList").value) + sufUrlName, function (data) {
+        var count = 0;
+        var a =new Array();
+        while (undefined != data.lines[0][count]) {
 
+            colorArray[count] = data.lines[0][count].color;
+            count++;
+        }
+        var saveArray = new Array(count);
+        for(var i = 0;i<count;i++){
+            saveArray[i] = new Object();
+        }
+        for(var i=0;i<count;i++){
+            saveArray[i] =  Hex2RGB(document.getElementById("color" + (i+1).toString()).value,saveArray[i]);
+        }
+        var json =JSON.stringify(saveArray,null,1);
+        Download(json,("subject_tmpl_" + (document.getElementById("subjectList").value) + sufUrlName));
+
+    });
+
+};
+//将json格式数据保存成文件
+function Download(content, filename) {
+
+    var eleLink = document.createElement('a');
+    eleLink.download = filename;
+    eleLink.style.display = 'none';
+    var blob = new Blob([content]);
+    eleLink.href = URL.createObjectURL(blob);
+    document.body.appendChild(eleLink);
+    eleLink.click();
+    document.body.removeChild(eleLink);
+}
 
 //画出整个payLines
 function DrawPayLines(data) {
@@ -189,6 +227,7 @@ function DrawPayLines(data) {
     }
 
 }
+
 //画一条payLine
 function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
 
@@ -224,12 +263,14 @@ function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
 
 
 }
+//画序号
 function DrawSerial(serial,serialX,serialY,serialColor) {
     context.font = "15px Arial";
     context.fillStyle = serialColor;
     context.textAlign = "center";
     context.fillText(serial , serialX, serialY);
 }
+
 //画payLines上的每一小段
 function DrawPayLinesCeil(ceilBeginX,ceilBeginY,ceilEndX,ceilEndY,lineColor) {
 
@@ -241,6 +282,7 @@ function DrawPayLinesCeil(ceilBeginX,ceilBeginY,ceilEndX,ceilEndY,lineColor) {
     context.stroke();
     context.closePath();
 }
+
 //初始化每条赢钱线的颜色
 function InitColor() {
 
@@ -260,7 +302,7 @@ function InitColor() {
             count++;
         }
         if(0 == colorArray[0][3]){
-            window.alert("当前关卡赢钱线程序配置不显示")
+            window.alert("当前关卡赢钱线程序配置不显示");
         }
         for(var x = 0; x<60;x++) {
 
@@ -274,7 +316,7 @@ function InitColor() {
 
         for(var j = 0;j<count;j++) {
 
-            hex = "#"
+            hex = "#";
             for (var i = 0; i < 3; i++) {
                 hex += ("0" + Number(colorArray[j][i]).toString(16)).slice(-2);
             }
@@ -284,12 +326,20 @@ function InitColor() {
 
     });
     isNextUp =false;
-
 }
 
 
+//16进制转化成rgba
+function Hex2RGB(hex,saveArray){
 
+    saveArray.color = new Array(4);
+    for(var i =0 ;i<3;i++){
+        saveArray.color[i] = parseInt("0x"+hex[(2*i)+1]+hex[(2*i)+2]);
+    }
+    saveArray.color[3] = 255;
 
+    return saveArray;
+}
 
 
 
