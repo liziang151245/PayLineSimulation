@@ -267,7 +267,7 @@ function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
     var ceilEndX = ceilBeginX + ceilDisplacementX;
     var ceilEndY = lineBeginY + (data.lines[0][serial].rows[0])*ceilDisplacementY+ceilDisplacementY/2;
     var lineColor = document.getElementById("color" + (serial+1).toString()).value ;
-    var serialX = ceilBeginX - (countArray[data.lines[0][serial].rows[0]] * blank) - 10;//整体基于起始x向右偏移10像素点
+    var serialX = ceilBeginX - (countArray[data.lines[0][serial].rows[0]] * blank) - 30;//整体基于起始x向右偏移30像素点
     countArray[data.lines[0][serial].rows[0]] +=1;
     var serialY = ceilBeginY;
 
