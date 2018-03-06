@@ -17,6 +17,7 @@ var endSerial;
 var isNextUp = false;
 //获取当前浏览器逻辑分辨率与物理分辨率的比值
 var PIXEL_RATIO = (function () {
+
     var ctx = document.createElement("canvas").getContext("2d"),
         dpr = window.devicePixelRatio || 1,
         bsr = ctx.webkitBackingStorePixelRatio ||
@@ -24,20 +25,20 @@ var PIXEL_RATIO = (function () {
             ctx.msBackingStorePixelRatio ||
             ctx.oBackingStorePixelRatio ||
             ctx.backingStorePixelRatio || 1;
-
     return dpr / bsr;
 })();
 
 
 //读取主关卡数文件
 $.getJSON( preUrlName + "id_list.json",function (data) {
+
     subjectTempIdList = data;
     initSujectList();
+
     $.getJSON( preUrlName + "id_list.json",function (data) {
+
         InitSerial();
-
     });
-
 });
 
 
@@ -62,7 +63,7 @@ function initSujectList() {
 //根据当前关卡数生成关卡列表和名字
 function addSubjectList(subjectTempId) {
 
-    $.getJSON( preUrlName + subjectTempId+ sufUrlName,function (data) {
+    $.getJSON( preUrlName + subjectTempId + sufUrlName,function (data) {
 
         var displayName ;
         if (undefined === data.displayName) {
@@ -87,21 +88,26 @@ function addSubjectList(subjectTempId) {
 //获取当前选择的同时展现线数
 function GetChangeNum(numOfLines) {
 
-
         var changeNum;
+
         if ("all" == $("input[name='numberOfLines']:checked").val()) {
+
             changeNum = numOfLines;
         }
         else if ("1" == $("input[name='numberOfLines']:checked").val()) {
+
             changeNum = 1;
         }
         else if ("2" == $("input[name='numberOfLines']:checked").val()) {
+
             changeNum = 2;
         }
         else if ("5" == $("input[name='numberOfLines']:checked").val()) {
+
             changeNum = 5;
         }
         else if ("10" == $("input[name='numberOfLines']:checked").val()) {
+
             changeNum = 10;
         }
 
@@ -148,9 +154,11 @@ nextButton.onclick = function () {
         beginSerial = endSerial;
         endSerial = beginSerial + GetChangeNum(numOfLines);
         if (endSerial > numOfLines) {
+
             endSerial = numOfLines;
         }
         if(beginSerial >= numOfLines) {
+
             beginSerial = 0;
             endSerial = GetChangeNum(numOfLines);
         }
@@ -173,9 +181,11 @@ refreshButton.onclick = function(){
             numOfLines++;
         }
         if(isNextUp == false || "all" == $("input[name='numberOfLines']:checked").val()) {
+
             beginSerial = 0;
             endSerial = GetChangeNum(numOfLines);
         }
+
         DrawPayLines(data);
     });
 };
@@ -186,24 +196,26 @@ outButton.onclick = function () {
     $.getJSON(preUrlName + (document.getElementById("subjectList").value) + sufUrlName, function (data) {
         var count = 0;
         var a =new Array();
+
         while (undefined != data.lines[0][count]) {
 
             colorArray[count] = data.lines[0][count].color;
             count++;
         }
+
         var saveArray = new Array(count);
+
         for(var i = 0;i<count;i++){
-            saveArray[i] = new Object();
-        }
-        for(var i=0;i<count;i++){
+
+            saveArray[i] = new Object(1);
             saveArray[i] =  Hex2RGB(document.getElementById("color" + (i+1).toString()).value,saveArray[i]);
         }
         var json =JSON.stringify(saveArray,null,1);
         Download(json,("subject_tmpl_" + (document.getElementById("subjectList").value) + sufUrlName));
 
     });
-
 };
+
 //将json格式数据保存成文件
 function Download(content, filename) {
 
@@ -219,57 +231,70 @@ function Download(content, filename) {
 
 //画出整个payLines
 function DrawPayLines(data) {
-
+    var rotaryTableX ;
+    var rotaryTableY ;
     context.clearRect(0,0,winWidth,winHeight);
-    if(undefined == data.panels[0].spinRegion)
-    {
-        var rotaryTableX = data.panels[0].spinRegionIpad[0]+ (winWidth-960)/2 +200;//轮盘坐标x
-        var rotaryTableY = data.panels[0].spinRegionIpad[1] + (winHeight-640)/2 -200;//轮盘坐标y
+    if(undefined == data.panels[0].spinRegion) {
+
+        rotaryTableX = data.panels[0].spinRegionIpad[0]+ (winWidth-960)/2 +200;//轮盘坐标x
+        rotaryTableY = data.panels[0].spinRegionIpad[1] + (winHeight-640)/2 -200;//轮盘坐标y
         canvas.width = (winWidth+400) * PIXEL_RATIO;
         canvas.height = (winHeight+400) * PIXEL_RATIO;
         canvas.style.height = "1168px";
         canvas.style.width = "1536px";
 
     }else {
-        var rotaryTableX = data.panels[0].spinRegion[0]+ (winWidth-960)/2;
-        var rotaryTableY = data.panels[0].spinRegion[1] + (winHeight-640)/2;
 
+        rotaryTableX = data.panels[0].spinRegion[0]+ (winWidth-960)/2;
+        rotaryTableY = data.panels[0].spinRegion[1] + (winHeight-640)/2;
         canvas.width = winWidth * PIXEL_RATIO;
         canvas.height = winHeight * PIXEL_RATIO;
         canvas.style.height = "768px";
         canvas.style.width = "1136px";
 
     }
+
     var lineBeginX = rotaryTableX;//线开始位置x
     var lineBeginY = rotaryTableY;//线开始位置y；
     var countArray = new Array(data.reelRow);
+
     for(var i = 0;i<data.reelRow;i++){
-        countArray[i] = new Array();
+
+        countArray[i] = new Array(2);
+
         for(var j =0;j<2;j++){
+
             countArray[i][j] =0;
         }
     }
-    for(var j =beginSerial;j<endSerial ;j++) {
+
+    for(var serial =beginSerial;serial<endSerial ;serial++) {
+
         lineBeginX = rotaryTableX;
         lineBeginY = rotaryTableY;
-        DrawPayLine(data,lineBeginX,lineBeginY,j,countArray);
+        DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray);
     }
 
 }
 
 //画一条payLine
 function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
-
+    var rotaryTableWidth;//轮盘宽度
+    var rotaryTableHeight;//轮盘高度
     var blank = 20;//序号间距
     var numOfCol = data.reelCol;//列
     var numOfRow = data.reelRow;//行
+
     if(undefined == data.panels[0].spinRegion) {
-        var rotaryTableWidth = data.panels[0].spinRegionIpad[2];//轮盘宽度
-        var rotaryTableHeight = data.panels[0].spinRegionIpad[3];//轮盘高度
+
+        rotaryTableWidth = data.panels[0].spinRegionIpad[2];//轮盘宽度
+        rotaryTableHeight = data.panels[0].spinRegionIpad[3];//轮盘高度
     }else{
-        var rotaryTableWidth = data.panels[0].spinRegion[2];//轮盘宽度
-        var rotaryTableHeight = data.panels[0].spinRegion[3];//轮盘高度
+
+        rotaryTableWidth = data.panels[0].spinRegion[2];//轮盘宽度
+        rotaryTableHeight = data.panels[0].spinRegion[3];//轮盘高度
     }
+
     var ceilDisplacementX = rotaryTableWidth/(numOfCol*2);//x方向每次改变位移
     var ceilDisplacementY = rotaryTableHeight/numOfRow;//y方向每次改变位移
     var ceilBeginX = lineBeginX ;
@@ -280,15 +305,18 @@ function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
     countArray[data.lines[0][serial].rows[0]][0]+=1;
 
     if(9 == countArray[data.lines[0][serial].rows[0]][0]) {
+
         countArray[data.lines[0][serial].rows[0]][0] = 1;
         countArray[data.lines[0][serial].rows[0]][1] +=1;
     }
+
     var serialX = ceilBeginX - (countArray[data.lines[0][serial].rows[0]][0] * blank) - 15;//整体基于起始x向右偏移15像素点
     var serialY = ceilBeginY - (countArray[data.lines[0][serial].rows[0]][1]) * 15;
-
     DrawSerial(serial + 1 , serialX , winHeight-serialY , lineColor);
     DrawPayLinesCeil(ceilBeginX,winHeight-ceilBeginY,ceilEndX,winHeight-ceilEndY,lineColor);
+
     for(var i = 0;i<numOfCol-1;i++){
+
         ceilBeginX = ceilEndX;
         ceilBeginY = ceilEndY;
         ceilEndX = ceilBeginX + ceilDisplacementX*2;
@@ -296,11 +324,11 @@ function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
         lineColor = document.getElementById("color" + (serial+1).toString()).value;
         DrawPayLinesCeil(ceilBeginX,winHeight-ceilBeginY,ceilEndX,winHeight-ceilEndY,lineColor);
     }
+
     ceilBeginX = ceilEndX;
     ceilBeginY = ceilEndY;
     ceilEndX = ceilBeginX + ceilDisplacementX;
     DrawPayLinesCeil(ceilBeginX,winHeight-ceilBeginY,ceilEndX,winHeight-ceilEndY,lineColor);
-
 
 }
 //画序号
@@ -328,7 +356,9 @@ function DrawPayLinesCeil(ceilBeginX,ceilBeginY,ceilEndX,ceilEndY,lineColor) {
 function InitColor() {
 
     $("#numberOfLines")[0][0].checked = true;
+
     for(var i = 0;i<60;i++) {
+
         colorArray[i] = undefined;
         document.getElementById("color" + (i+1).toString()).disabled=false;
     }
@@ -336,6 +366,7 @@ function InitColor() {
     var selectNum = document.getElementById("subjectList").value; //当前关卡数
     var count = 0;
     var hex;
+
     $.getJSON(preUrlName + selectNum + sufUrlName, function (data) {
 
         while (undefined != data.lines[0][count]) {
@@ -344,14 +375,17 @@ function InitColor() {
             count++;
         }
         if(0 == colorArray[0][3]){
+
             window.alert("当前关卡赢钱线程序配置不显示");
         }
         for(var x = 0; x<60;x++) {
+
             document.getElementById("color" + (x+1).toString()).style.display ="";
             document.getElementById("colorText" + (x+1).toString()).style.display ="";
             document.getElementById("color" + (x+1).toString()).value ="#000000" ;
         }
         for(var i = count;i<60;i++){
+
             document.getElementById("color" + (i+1).toString()).style.display ="none";
             document.getElementById("colorText" + (i+1).toString()).style.display ="none";
         }
@@ -360,6 +394,7 @@ function InitColor() {
 
             hex = "#";
             for (var i = 0; i < 3; i++) {
+
                 hex += ("0" + Number(colorArray[j][i]).toString(16)).slice(-2);
             }
             document.getElementById("color" + (j+1).toString()).value =hex ;
@@ -367,7 +402,6 @@ function InitColor() {
         }
         beginSerial = 0;
         endSerial = GetChangeNum(count);
-
     });
     isNextUp =false;
 }
