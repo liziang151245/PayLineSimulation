@@ -134,8 +134,10 @@ $("#background").on("change", function(e) {
 
 //点击next按钮功能
 nextButton.onclick = function () {
+
     var numOfLines = 0;
     var selectNum = document.getElementById("subjectList").value; //当前关卡数
+
     $.getJSON(preUrlName + selectNum + sufUrlName, function (data) {
 
         while (undefined != data.lines[0][numOfLines]) {
@@ -160,6 +162,7 @@ nextButton.onclick = function () {
 
 //点击预览按钮功能
 refreshButton.onclick = function(){
+
     var numOfLines = 0;
 
     var selectNum = document.getElementById("subjectList").value; //当前关卡数
@@ -179,6 +182,7 @@ refreshButton.onclick = function(){
 
 //点击输出按钮功能
 outButton.onclick = function () {
+
     $.getJSON(preUrlName + (document.getElementById("subjectList").value) + sufUrlName, function (data) {
         var count = 0;
         var a =new Array();
@@ -225,6 +229,7 @@ function DrawPayLines(data) {
         canvas.height = (winHeight+400) * PIXEL_RATIO;
         canvas.style.height = "1168px";
         canvas.style.width = "1536px";
+
     }else {
         var rotaryTableX = data.panels[0].spinRegion[0]+ (winWidth-960)/2;
         var rotaryTableY = data.panels[0].spinRegion[1] + (winHeight-640)/2;
@@ -233,6 +238,7 @@ function DrawPayLines(data) {
         canvas.height = winHeight * PIXEL_RATIO;
         canvas.style.height = "768px";
         canvas.style.width = "1136px";
+
     }
     var lineBeginX = rotaryTableX;//线开始位置x
     var lineBeginY = rotaryTableY;//线开始位置y；
@@ -253,6 +259,7 @@ function DrawPayLines(data) {
 
 //画一条payLine
 function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
+
     var blank = 20;//序号间距
     var numOfCol = data.reelCol;//列
     var numOfRow = data.reelRow;//行
@@ -298,6 +305,7 @@ function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
 }
 //画序号
 function DrawSerial(serial,serialX,serialY,serialColor) {
+
     context.font = "15px Arial";
     context.fontStyle = "center";
     context.fillStyle = serialColor;
