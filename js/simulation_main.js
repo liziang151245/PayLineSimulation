@@ -333,12 +333,10 @@ function InitColor() {
             document.getElementById("color" + (x+1).toString()).style.display ="";
             document.getElementById("colorText" + (x+1).toString()).style.display ="";
             document.getElementById("color" + (x+1).toString()).value ="#000000" ;
-            document.getElementById("color" + (x+1).toString()).style.border = "1px solid #00FF25"
         }
         for(var i = count;i<60;i++){
             document.getElementById("color" + (i+1).toString()).style.display ="none";
             document.getElementById("colorText" + (i+1).toString()).style.display ="none";
-            document.getElementById("color" + (i+1).toString()).style.border ="1px solid #FF0018";
         }
 
         for(var j = 0;j<count;j++) {
