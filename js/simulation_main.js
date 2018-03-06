@@ -238,7 +238,10 @@ function DrawPayLines(data) {
     var lineBeginY = rotaryTableY;//线开始位置y；
     var countArray = new Array(data.reelRow);
     for(var i = 0;i<data.reelRow;i++){
-        countArray[i] = 0;
+        countArray[i] = new Array();
+        for(var j =0;j<2;j++){
+            countArray[i][j] =0;
+        }
     }
     for(var j =beginSerial;j<endSerial ;j++) {
         lineBeginX = rotaryTableX;
@@ -267,9 +270,14 @@ function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
     var ceilEndX = ceilBeginX + ceilDisplacementX;
     var ceilEndY = lineBeginY + (data.lines[0][serial].rows[0])*ceilDisplacementY+ceilDisplacementY/2;
     var lineColor = document.getElementById("color" + (serial+1).toString()).value ;
-    var serialX = ceilBeginX - (countArray[data.lines[0][serial].rows[0]] * blank) - 30;//整体基于起始x向右偏移30像素点
-    countArray[data.lines[0][serial].rows[0]] +=1;
-    var serialY = ceilBeginY;
+    countArray[data.lines[0][serial].rows[0]][0]+=1;
+
+    if(9 == countArray[data.lines[0][serial].rows[0]][0]) {
+        countArray[data.lines[0][serial].rows[0]][0] = 1;
+        countArray[data.lines[0][serial].rows[0]][1] +=1;
+    }
+    var serialX = ceilBeginX - (countArray[data.lines[0][serial].rows[0]][0] * blank) - 15;//整体基于起始x向右偏移15像素点
+    var serialY = ceilBeginY - (countArray[data.lines[0][serial].rows[0]][1]) * 15;
 
     DrawSerial(serial + 1 , serialX , winHeight-serialY , lineColor);
     DrawPayLinesCeil(ceilBeginX,winHeight-ceilBeginY,ceilEndX,winHeight-ceilEndY,lineColor);
@@ -291,6 +299,7 @@ function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
 //画序号
 function DrawSerial(serial,serialX,serialY,serialColor) {
     context.font = "15px Arial";
+    context.fontStyle = "center";
     context.fillStyle = serialColor;
     context.fillText(serial , serialX, serialY);
 }
