@@ -216,16 +216,30 @@ function Download(content, filename) {
 //画出整个payLines
 function DrawPayLines(data) {
 
+    context.clearRect(0,0,winWidth,winHeight);
+    if(undefined == data.panels[0].spinRegion)
+    {
+        var rotaryTableX = data.panels[0].spinRegionIpad[0]+ (winWidth-960)/2 +200;//轮盘坐标x
+        var rotaryTableY = data.panels[0].spinRegionIpad[1] + (winHeight-640)/2 -200;//轮盘坐标y
+        canvas.width = (winWidth+400) * PIXEL_RATIO;
+        canvas.height = (winHeight+400) * PIXEL_RATIO;
+        canvas.style.height = "1168px";
+        canvas.style.width = "1536px";
+    }else {
+        var rotaryTableX = data.panels[0].spinRegion[0]+ (winWidth-960)/2;
+        var rotaryTableY = data.panels[0].spinRegion[1] + (winHeight-640)/2;
 
-    var rotaryTableX = data.panels[0].spinRegion[0]+ (winWidth-960)/2;//轮盘坐标x
-    var rotaryTableY = data.panels[0].spinRegion[1] + (winHeight-640)/2;//轮盘坐标y
+        canvas.width = winWidth * PIXEL_RATIO;
+        canvas.height = winHeight * PIXEL_RATIO;
+        canvas.style.height = "768px";
+        canvas.style.width = "1136px";
+    }
     var lineBeginX = rotaryTableX;//线开始位置x
     var lineBeginY = rotaryTableY;//线开始位置y；
     var countArray = new Array(data.reelRow);
     for(var i = 0;i<data.reelRow;i++){
         countArray[i] = 0;
     }
-    context.clearRect(0,0,winWidth,winHeight);
     for(var j =beginSerial;j<endSerial ;j++) {
         lineBeginX = rotaryTableX;
         lineBeginY = rotaryTableY;
@@ -239,8 +253,13 @@ function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
     var blank = 20;//序号间距
     var numOfCol = data.reelCol;//列
     var numOfRow = data.reelRow;//行
-    var rotaryTableWidth = data.panels[0].spinRegion[2];//轮盘宽度
-    var rotaryTableHeight = data.panels[0].spinRegion[3];//轮盘高度
+    if(undefined == data.panels[0].spinRegion) {
+        var rotaryTableWidth = data.panels[0].spinRegionIpad[2];//轮盘宽度
+        var rotaryTableHeight = data.panels[0].spinRegionIpad[3];//轮盘高度
+    }else{
+        var rotaryTableWidth = data.panels[0].spinRegion[2];//轮盘宽度
+        var rotaryTableHeight = data.panels[0].spinRegion[3];//轮盘高度
+    }
     var ceilDisplacementX = rotaryTableWidth/(numOfCol*2);//x方向每次改变位移
     var ceilDisplacementY = rotaryTableHeight/numOfRow;//y方向每次改变位移
     var ceilBeginX = lineBeginX ;
@@ -273,7 +292,6 @@ function DrawPayLine(data,lineBeginX,lineBeginY,serial,countArray) {
 function DrawSerial(serial,serialX,serialY,serialColor) {
     context.font = "15px Arial";
     context.fillStyle = serialColor;
-    context.textAlign = "center";
     context.fillText(serial , serialX, serialY);
 }
 
