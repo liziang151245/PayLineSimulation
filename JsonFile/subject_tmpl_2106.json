@@ -1,0 +1,1114 @@
+{
+  "subjectTmplId": 2106,
+  "editableConfigId":2106,
+  "flagStoneSuffix": "",
+  "bonusId": 0,
+  "freeSpinPanels": 1,
+  "normalSpinPanels": 1,
+  "reelCol": 5,
+  "reelRow": 4,
+  "stackSymbols": null,
+  "subjectMode": 1,
+  "symbolOpType": 1,
+  "lines": [
+    [
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          2,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          3,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          3,
+          2,
+          3,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          2,
+          2,
+          2,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          3,
+          3,
+          3,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          3,
+          2,
+          3,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          3,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          3,
+          1,
+          3,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          1,
+          3,
+          1,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          2,
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          1,
+          1,
+          1,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          3,
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          3,
+          1,
+          3,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          2,
+          0,
+          2,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          1,
+          3,
+          1,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          1,
+          3,
+          1,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          3,
+          1,
+          3,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          2,
+          1,
+          2,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          1,
+          2,
+          1,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          1,
+          3,
+          2,
+          3,
+          1
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          2,
+          0,
+          1,
+          0,
+          2
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          0,
+          1,
+          2,
+          3,
+          3
+        ]
+      },
+      {
+        "color": [
+          0,
+          255,
+          153,
+          255
+        ],
+        "rows": [
+          3,
+          2,
+          1,
+          0,
+          0
+        ]
+      }
+    ]
+  ],
+  "adapterConfig": {
+        "spinUISize": [
+            1136,
+            95
+        ],
+        "titleUISize": [
+            1136,
+            70
+        ],
+        "reelSize": [
+            1041,
+            485
+        ],
+        "padSpinUISize": [
+            1007,
+            126
+        ],
+        "padTitleUISize": [
+            1136,
+            70
+        ],
+        "padReelSize": [
+            1041,
+            580
+        ]
+  },
+  "panels": [{
+    "colShift": 0,
+    "columnFreeSpinBg": "",
+    "columnNormalBg": "",
+    "panelId": 0,
+    "rowShift": 0,
+    "slotCols": 5,
+    "slotRows": 4,
+    "slotsWidth": 175,
+    "spinRegionPolicy": 0,
+    "spinRegion": [
+        0,0,
+        872,
+        448
+    ],
+    "spinRegionIpad": [-130,
+        142,
+        866,
+        540,
+        1,
+        1
+    ],
+    "spinRegionIphone4": [
+        0,
+        0,
+        872,
+        446,
+        0.9,
+        0.9
+    ],
+    "subBgName": "",
+    "subBgPos": [
+      0,
+      0
+    ],
+    "winFrameAnimName": "",
+    "winFrameName": "",
+    "spinLayerType": 2106
+  }],
+  "symbols": {
+    "1": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_wild.ccbi",
+      "bgName": "",
+      "imgName": "zeus_wild.png",
+      "name": "zeus eagle Wild base",
+      "payTables": null,
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1,
+      "symbolValue": 1,
+      "symbolW": 1
+    },
+    "2": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_scatter.ccbi",
+      "bgName": "",
+      "imgName": "zeus_scatter.png",
+      "name": "zeus temple Scatter",
+      "payTables": {
+        "3": 10
+      },
+      "reelMask": 7,
+      "reelMaskFree": 0,
+      "symbolH": 1,
+      "symbolId": 2,
+      "symbolValue": 2,
+      "symbolW": 1
+    },
+    "1101": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_wild_blue.ccbi",
+      "bgName": "",
+      "imgName": "zeus_wild_blue.png",
+      "name": "zeus eagle Wild base",
+      "payTables": null,
+      "reelMask": 0,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1101,
+      "symbolValue": 1101,
+      "symbolW": 1
+    },
+    "1000": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_zeus.ccbi",
+      "bgName": "zeus man",
+      "imgName": "zeus.png",
+      "name": "zeus man",
+      "payTables": {
+        "2": 5,
+        "3": 25,
+        "4": 100,
+        "5": 300
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1000,
+      "symbolValue": 1000,
+      "symbolW": 1
+    },
+    "1001": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_helmet.ccbi",
+      "bgName": "",
+      "imgName": "zeus_helmet.png",
+      "name": "zeus helmet",
+      "payTables": {
+        "3": 15,
+        "4": 75,
+        "5": 200
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1001,
+      "symbolValue": 1001,
+      "symbolW": 1
+    },
+    "1002": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_lyre.ccbi",
+      "bgName": "",
+      "imgName": "zeus_lyre.png",
+      "name": "U-qin",
+      "payTables": {
+        "3": 15,
+        "4": 75,
+        "5": 200
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1002,
+      "symbolValue": 1002,
+      "symbolW": 1
+    },
+    "1003": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_pot.ccbi",
+      "bgName": "",
+      "imgName": "zeus_pot.png",
+      "name": "Ceramic pot",
+      "payTables": {
+        "3": 12,
+        "4": 50,
+        "5": 150
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1003,
+      "symbolValue": 1003,
+      "symbolW": 1
+    },
+    "1004": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_olive.ccbi",
+      "bgName": "",
+      "imgName": "zeus_olive.png",
+      "name": "Olive branch",
+      "payTables": {
+        "3": 12,
+        "4": 60,
+        "5": 150
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1004,
+      "symbolValue": 1004,
+      "symbolW": 1
+    },
+    "1005": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_a.ccbi",
+      "bgName": "",
+      "imgName": "zeus_a.png",
+      "name": "A",
+      "payTables": {
+        "3": 10,
+        "4": 50,
+        "5": 150
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1005,
+      "symbolValue": 1005,
+      "symbolW": 1
+    },
+    "1006": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_k.ccbi",
+      "bgName": "",
+      "imgName": "zeus_k.png",
+      "name": "K",
+      "payTables": {
+        "3": 10,
+        "4": 30,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1006,
+      "symbolValue": 1006,
+      "symbolW": 1
+    },
+    "1007": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_q.ccbi",
+      "bgName": "",
+      "imgName": "zeus_q.png",
+      "name": "Q",
+      "payTables": {
+        "3": 10,
+        "4": 30,
+        "5": 100
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1007,
+      "symbolValue": 1007,
+      "symbolW": 1
+    },
+    "1008": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_j.ccbi",
+      "bgName": "",
+      "imgName": "zeus_j.png",
+      "name": "J",
+      "payTables": {
+        "3": 5,
+        "4": 15,
+        "5": 80
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1008,
+      "symbolValue": 1008,
+      "symbolW": 1
+    },
+    "1009": {
+      "animEffect": 2,
+      "animName": "zeus/reels/symbol/zeus_symbol_10.ccbi",
+      "bgName": "",
+      "imgName": "zeus_10.png",
+      "name": "10",
+      "payTables": {
+        "3": 5,
+        "4": 15,
+        "5": 80
+      },
+      "reelMask": 255,
+      "reelMaskFree": 255,
+      "symbolH": 1,
+      "symbolId": 1009,
+      "symbolValue": 1009,
+      "symbolW": 1
+    }
+  },
+  "specialPayTables": {},
+  "client": {
+    "symbolMoveMode": 0,
+    "symbolStrategyId": 10,
+    "payTableCCBPath": "zeus/reels/paytable_opt/paytable.ccbi",
+    "payTableWidth": 936,
+    "payTableConfig": [
+      "zeus_treasure_paytable_1.ccbi",
+      "zeus_treasure_paytable_2.ccbi",
+      "zeus_treasure_paytable_4.ccbi",
+      "zeus_treasure_paytable_5.ccbi"
+    ],
+    "stackSymbols": null,
+    "bgName": "zeus/reels/bg/zeus_background.ccbi",
+    "reelName": "",
+    "slotSceneType": 2106,
+    "displayName": "Zeus",
+    "freeSpinBgMusic": "",
+    "resRootDir": "zeus",
+    "spinBgMusic": "",
+    "symbolBatchName": "zeus/reels/symbol/zeus_symbol_batch.png",
+    "symbolBatchPlistPath": "zeus/reels/symbol/zeus_symbol_batch.plist",
+    "symbolBlurBatchName": "zeus/reels/symbol/zeus_symbol_batch.png",
+    "symbolBlurBatchPlistPath": "zeus/reels/symbol/zeus_symbol_batch.plist",
+    "winMusic": "",
+    "spinUiTitleName": "casino/lobby/casino_ui_title",
+    "spinUiBottomName": "zeus/spin_ui/zeus_slot_spin_ui",
+    "winEffectMap": {
+      "1": {
+        "effectName": "slots/domina/small-win",
+        "effectDuration": "3"
+      },
+      "2": {
+        "effectName": "slots/domina/mid-win",
+        "effectDuration": "5"
+      },
+      "3": {
+        "effectName": "slots/domina/big-win",
+        "effectDuration": "7"
+      },
+      "4": {
+        "effectName": "slots/domina/big-win",
+        "effectDuration": "7"
+      }
+    },
+    "prizePoolType": 1,
+    "functionType": 1
+  },
+  "server": {
+    "panelType": 0,
+    "spinType": 1,
+    "specials": {
+      "type": 2106
+    }
+  }
+}
